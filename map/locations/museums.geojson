@@ -1,0 +1,328 @@
+const museums = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3252,
+          27.6734
+        ]
+      },
+      "properties": {
+        "title": "Patan Museum",
+        "description": "Patan Durbar Square, Lalitpur",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9828,
+          28.1900
+        ]
+      },
+      "properties": {
+        "title": "International Mountain Museum",
+        "description": "Pardi Bazaar, Pokhara",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2882,
+          27.7145
+        ]
+      },
+      "properties": {
+        "title": "Natural History Museum of Nepal",
+        "description": "Swoyambhu Circle Road, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3569,
+          27.7201
+        ]
+      },
+      "properties": {
+        "title": "The Taragaon Museum",
+        "description": "Boudhanath Sadak, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry":{
+        "type": "Point",
+        "coordinates": [
+          85.3536,
+          27.6940
+        ]
+      },
+      "properties": {
+        "title": "Aviation Museum",
+        "description": "Sinamangal, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0474,
+          27.5739
+        ]
+      },
+      "properties": {
+        "title": "Kapilvastu Museum",
+        "description": "Kapilvastu, Lumbini",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3222,
+          27.7110
+        ]
+      },
+      "properties": {
+        "title": "Nepal Children's Art Museum",
+        "description": "Hattisar Sadak Buddha Air Building, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3102,
+          27.7166
+        ]
+      },
+      "properties": {
+        "title": "Buddha Nepal Art Gallery",
+        "description": "Chaksibari Marg, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.2125,
+          26.4477
+        ]
+      },
+      "properties": {
+        "title": "Everest Science Center Nepal",
+        "description": "Sitagunj, Sunsari, Nepal",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2772,
+          27.4892
+        ]
+      },
+      "properties": {
+        "title": "Lumbini Museum",
+        "description": "Lumbini Sanskritik, Lumbini",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5077,
+          27.5824
+        ]
+      },
+      "properties": {
+        "title": "Tharu Cultural Museum",
+        "description": "Ratnanagar, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9374,
+          27.9987
+        ]
+      },
+      "properties": {
+        "title": "Gorkha Museum",
+        "description": "Rani Pokhari Maarga, Gorkha",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3604,
+          27.7225
+        ]
+      },
+      "properties": {
+        "title": "Buddhist Art Gallery",
+        "description": "Baudha Road, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4356,
+          27.6734
+        ]
+      },
+      "properties": {
+        "title": "Wood Carving Museum",
+        "description": "Araniko Hwy, Bhaktapur",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9908,
+          28.2391
+        ]
+      },
+      "properties": {
+        "title": "Annapurna Museum",
+        "description": "Nadipur Rd, Pokhara",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4283,
+          27.6722
+        ]
+      },
+      "properties": {
+        "title": "Bhaktapur Art Museum",
+        "description": "Bhaktapur",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2841,
+          27.6754
+        ]
+      },
+      "properties": {
+        "title": "BP Koirala Memorial Planetorium Observatory and Science Museum",
+        "description": "Kirtipur Rd, Kirtipur",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2901,
+          27.7148
+        ]
+      },
+      "properties": {
+        "title": "Swayambhu Buddhist Museum",
+        "description": "Swayambhu, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3160,
+          27.6754
+        ]
+      },
+      "properties": {
+        "title": "Park Gallery",
+        "description": "Pulchowk, Lalitpur",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "museum"
+      }
+    }
+  ]
+};

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <title>National Parks</title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+        <!-- MapBox Leaflet API -->
+        <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+        
+        <!-- Leaflet locate (Button) -->
+        <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+
+        <link rel="stylesheet" type="text/css" href="./../map.css">
+
+        <!-- Link to token -->
+        <script type="text/javascript" src="./../token.js"></script>
+
+        <!-- Link to GeoJSON -->
+        <script type="text/javascript" src="./../locations/national.geojson"></script>
+        <script>
+            const geojson = national;
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <a href="./../../index.html"><img src="./../../images/logo.png"></a>
+        </header>
+
+        <div id='map' class='map'></div>
+
+        <script src="./../map.js"></script>
+    </body>
+</html>

@@ -1,0 +1,203 @@
+const religious = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2904,
+          27.7148
+        ]
+      },
+      "properties": {
+        "title": "Swayambhunath",
+        "description": "",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3575,
+          27.7213
+        ]
+      },
+      "properties": {
+        "title": "Boudhha",
+        "description": "",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.5070,
+          27.6792
+        ]
+      },
+      "properties": {
+        "title": "Lumbini",
+        "description": "",
+        "state": "5",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5840,
+          27.9042
+        ]
+      },
+      "properties": {
+        "title": "Manakamana",
+        "description": "",
+        "state": "4",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8713,
+          28.8167
+        ]
+      },
+      "properties": {
+        "title": "Muktinath",
+        "description": "",
+        "state": "4",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3487,
+          27.7105
+        ]
+      },
+      "properties": {
+        "title": "Pashupati",
+        "description": "",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.9250,
+          27.9881
+        ]
+      },
+      "properties": {
+        "title": "Sagarmatha",
+        "description": "",
+        "state": "1",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3065,
+          27.7037
+        ]
+      },
+      "properties": {
+        "title": "Kumari Ghar",
+        "description": "",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.8177,
+          27.0343
+        ]
+      },
+      "properties": {
+        "title": "Bindyabasini",
+        "description": "",
+        "state": "2",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3653,
+          27.7654
+        ]
+      },
+      "properties": {
+        "title": "Budanilkantha",
+        "description": "",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.9256,
+          26.7304
+        ]
+      },
+      "properties": {
+        "title": "Janaki Mandir",
+        "description": "",
+        "state": "2",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "place-of-worship"
+      }
+    }
+  ]
+};

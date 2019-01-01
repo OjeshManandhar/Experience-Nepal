@@ -1,0 +1,185 @@
+const worldheritage= {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3487,
+          27.7105
+        ]
+      },
+      "properties": {
+        "title": "Pashupatinath Temple",
+        "address": "Pashupati Nath Road 44621, Kathmandu 44600 Marg, Kathmandu 44600",
+        "description":"The Pashupatinath Temple is considered one of the holiest place for the Hindus. It is located 6 km east from Kathmandu. The structure is a two-storey building and is built in pagoda style. The site is a collection of temples, ashrams, images and inscriptions. The structures in this perimeter were raised over the centuries and lies right besides the banks of the holy Bagmati river. The temple has been on the World Heritage list since 1979",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2904,
+          27.7148
+        ]
+      },
+      "properties": {
+        "title": "Swayambhunath Stupa",
+        "address": "Kathmandu 44600",
+        "description":"Syayambhunath Stupa is believed to be around 2500 years old and because of this it is considered probably one of the oldest monuments making its name in the list. The structure represents the four elements of earth, fire, wind and water. The 13 rings of the spire symbolizes the 13 steps of the ladder leading to Nirvana. There are 365 steps passing through which you will reach the holy site of Swayambhunath stupa.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3618,
+          27.7220
+        ]
+      },
+      "properties": {
+        "title": "Swayambhunath Stupa",
+        "address": "Kathmandu 44600",
+        "description":"This Baudhanath Stupa is one of the oldest and biggest monument built in the Himalayan nation. The structure was built around the 5th century A.D. It is a 36 m high unique three level mandala style structure. People following Buddhist religion flock in thousands during the Buddhist festivities. This monument is more or less similar to the Swayambhunath Stupa.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3068,
+          27.7042
+        ]
+      },
+      "properties": {
+        "title": "Kathmandu Durbar Square",
+        "address": "Kot Square, Kathmandu 44600",
+        "description":"This is an ancient royal courtyard which lies in the heart of the capital city, Kathmandu. Another name for Kathmandu Durbar Square is Hanuman Dhoka Palace. The latter is more of a popular name these days. This is the ancient royal courtyard of the Nepalese royalty. There are many temples which are dedicated to different Hindu deities. Most of the buildings here were constructed from the 15th – 18th century. The palace is named after the Hindu god Hanuman, who is regarded as the protector of the entire palace.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3253,
+          27.6727
+        ]
+      },
+      "properties": {
+        "title": "Patan Durbar Square",
+        "address": "Patan 44700",
+        "description":"The Patan Durbar Square is situated only 8 km south-east of Kathmandu city. This city is one of the oldest cities in Kathmandu valley. The city was founded in the 3rd century. It is an open museum of the finest Newari craftsmanship. The Hindu and Buddhist monuments are scattered around this ancient royal courtyard.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4281,
+          27.6721
+        ]
+      },
+      "properties": {
+        "title": "Bhaktapur Durbar Square",
+        "address": "Durbar square, Bhaktapur 44800",
+        "description":"The Bhaktapur Durbar square, also known as Bhadgaon, is a unique city located 13 km east of Kathmandu. The complex consists of at least four distinct squares. They are namely Durbar Square, Taumadhi Square, Dattatreya Square and Pottery Square. The collective distinct squares is known as the Bhaktapur Durbar square.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4279,
+          27.7163
+        ]
+      },
+      "properties": {
+        "title": "Changu Narayan Temple",
+        "address": "Changunarayan 44600",
+        "description":"The ancient Hindu temple of Changu Narayan is located on a high hilltop that is also known as Changu or Dolagiri. This historic structure was built around the 3rd century A.D. The area was surrounded by forest with champak tree and a small village known as Changu village. It is located 12 km east of Kathmandu and few mile north of Bhaktapur.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.5070,
+          27.6792
+        ]
+      },
+      "properties": {
+        "title": "Lumbini",
+        "address": "Rupandehi District, Nepal",
+        "description":"Lumbini, the birthplace of Lord Buddha was enlisted as a World Heritage site in 1997. This is one of the holiest place for Buddhist pilgrimages. There are several temples including the Mayadevi Temple along with many other which are under repair. Many monuments, monasteries and a museum, the Lumbini International Research Institute are also within this holy site.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4525,
+          27.5341
+        ]
+      },
+      "properties": {
+        "title": "Chitwan National park",
+        "address": " Subarnapur 44200",
+        "description":"The Chitwan National Park was formerly known as the Royal Chitwan National Park. It is the first national park in Nepal and was established in the year 1973. It was granted the status of World Heritage site in 1984. This park is home to many different species of wildlife. These also includes the famous Asian one-horned rhino and the Royal Bengal tiger.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.7014,
+          27.9324
+        ]
+      },
+      "properties": {
+        "title": "Sagarmatha National Park",
+        "address": " Solukhumbu 56002",
+        "description":"Finally, the Sagarmatha National Park is yet another park of Nepal which has made to the World Heritage Sites. This was established in the year 1976. This is a protected area in the Himalayas of eastern Nepal and the most noteworthy is Mount Everest which falls in this park. It became the country’s first national park which was inscribed as a Natural World Heritage site in 1979.",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument",            
+      }
+    }
+  ]
+};

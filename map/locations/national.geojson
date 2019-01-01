@@ -1,0 +1,385 @@
+const national = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4525,
+          27.5341
+        ]
+      },
+      "properties": {
+        "title": "Chitwan National Park",
+        "area": "360 sq mi",
+        "description": "Nawalpur, Parsa, Chitwan and Makwanpur",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.7014,
+          27.9324
+        ]
+      },
+      "properties": {
+        "title": "Sagarmatha National Park",
+        "area": "443 sq mi",
+        "description": "Solukhumbu",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5438,
+          28.1289
+        ]
+      },
+      "properties": {
+        "title": "Langtang National Park",
+        "area": "660 sq mi",
+        "description": "Nuwakot, Rasuwa and Sindhulpalchok",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0734,
+          29.5178
+        ]
+      },
+      "properties": {
+        "title": "Rara National Park",
+        "area": "41 sq mi",
+        "description": "Mugu and Jumla",
+        "state": "6",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1417,
+          29.3783
+        ]
+      },
+      "properties": {
+        "title": "Khaptad National Park",
+        "area": "87 sq mi",
+        "description": "Bajhang, Bajura, Achham and Doti",
+        "state": "7",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8210,
+          29.5026
+        ]
+      },
+      "properties": {
+        "title": "Shey Phoksundo National Park",
+        "area": "1,373 sq mi",
+        "description": "Palam, Dolpa",
+        "state": "6",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5596,
+          28.3649
+        ]
+      },
+      "properties": {
+        "title": "Bardiya National Park",
+        "area": "374 sq mi",
+        "description": "Bardiya",
+        "state": "5",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.1024,
+          27.6603
+        ]
+      },
+      "properties": {
+        "title": "Makalu Barun National Park",
+        "area": "580 sq mi",
+        "description": "Solukhumbu and Sankhuwasabha",
+        "state": "1",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3859,
+          27.8129
+        ]
+      },
+      "properties": {
+        "title": "Shivapuri Nagarjun National Park",
+        "area": "61 sq mi",
+        "description": "Kathmandu",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    { 
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8880,
+          28.1758
+        ]
+      },
+      "properties": {
+        "title": "Banke National Park",
+        "area": "210 sq mi",
+        "description": "Banke, Salyan and Dang",
+        "state": "5",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2544,
+          28.8554
+        ]
+      },
+      "properties": {
+        "title": "Shuklaphanta National Park",
+        "area": "118 sq mi",
+        "description": "Kanchanpur",
+        "state": "7",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.7942,
+          27.4760
+        ]
+      },
+      "properties": {
+        "title": "Parsa National Park",
+        "area": "246 sq mi",
+        "description": "Chitwan, Makawanpur, Parsa and Bara",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.0024,
+          26.6475
+        ]
+      },
+      "properties": {
+        "name": "Koshi Tappu Wildlife Reserve",
+        "area": "68 sq mi",
+        "district": "Sunsari, Saptari and Udayapur",
+        "state": "1,2",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0167,
+          28.8205
+        ]
+      },
+      "properties": {
+        "name": "Annapurna Conservation Area",
+        "area": "2,946 sq mi",
+        "district": "Manang, Mustang, Kaski, Myagdi, and Lamjung",
+        "state": "4",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.9335,
+          27.6282
+        ]
+      },
+      "properties": {
+        "name": "Kanchenjunga Conservation Area",
+        "area": "786 sq mi",
+        "district": "Taplejung",
+        "state": "1",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5600,
+          28.5500
+        ]
+      },
+      "properties": {
+        "name": "Manaslu Conservation Area",
+        "area": "642 sq mi",
+        "district": "Gorkha",
+        "state": "4",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.20,
+          28.15
+        ]
+      },
+      "properties": {
+        "name": "Blackbuck Conservation Area",
+        "area": "6.16 sq mi",
+        "district": "Bardiya",
+        "state": "5",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8987,
+          29.9363
+        ]
+      },
+      "properties": {
+        "name": "Api Nampa Conservation Area",
+        "area": "735 sq mi",
+        "district": "Darchula",
+        "state": "7",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.2158,
+          27.8264
+        ]
+      },
+      "properties": {
+        "name": "Gaurishankar Conservation Area",
+        "area": "841 sq mi",
+        "district": "Ramechhap, Dolakha and Sindhupalchok",
+        "state": "3",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9932,
+          28.5856
+        ]
+      },
+      "properties": {
+        "name": "Dhorpatan Hunting Reserve",
+        "area": "512 sq mi",
+        "district": "Rukum, Myagdi and Baglung",
+        "state": "4,5",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "park"
+      }
+    }
+  ]
+};

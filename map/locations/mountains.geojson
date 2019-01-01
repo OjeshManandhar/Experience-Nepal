@@ -1,0 +1,243 @@
+const mountains = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.9250,
+          27.9881
+        ]
+      },
+      "properties": {
+        "title": "Mt. Everest",
+        "description": "8848 m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"          
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5597,
+          28.5497
+        ]
+      },
+      "properties": {
+        "title": "Manaslu",
+        "description": "8156 m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing" 
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.1475,
+          27.7025
+        ]
+      },
+      "properties": {
+        "title": "Kanchenjunga",
+        "description": "8586m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.0912,
+          27.8860
+        ]
+      },
+      "properties": {
+        "title": "Makalu",
+        "description": "8481m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.6585,
+          28.0973
+        ]
+      },
+      "properties": {
+      "title": "Cho Oyu",
+        "description": "8201m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.9336,
+          27.9626
+        ]
+      },
+      "properties": {
+        "title": "Lhotse",
+        "description": "8516m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8780,
+          28.5300
+        ]
+      },
+      "properties": {
+        "title": "Annapurna",
+        "description": "8091 m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9470,
+          28.5044
+        ]
+      },
+      "properties": {
+        "title": "Machapuchare",
+        "description": "6993 m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0564,
+          28.3794
+        ]
+      },
+      "properties": {
+        "title": "Ganesh Hima",
+        "description": "7422m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.7792,
+          28.3525
+        ]
+      },
+      "properties": {
+        "title": "Shishapangma",
+        "description": "8013m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9470,
+          28.5044
+        ]
+      },
+      "properties": {
+        "title": "Machapuchare",
+        "description": "6993m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9374,
+          28.4857
+        ]
+      },
+      "properties": {
+        "title": "Mardi himal",
+        "description": "5587m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.8167,
+          27.9833
+        ]
+      },
+      "properties": {
+        "title": "Kala Patthar",
+        "description": "5643m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.6280,
+          28.2286
+        ]
+      },
+      "properties": {
+        "title": "Yala Peak",
+        "description": "5700m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "skiing"
+      }
+    }
+  ]
+};

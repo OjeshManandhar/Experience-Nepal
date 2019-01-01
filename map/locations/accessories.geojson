@@ -1,0 +1,633 @@
+const accessories = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3592,
+          27.6981
+        ]
+      },
+      "properties": {
+        "title": "Tribhuvan International Airport",
+        "description": "Ring Rd, Kathmandu",
+        "code": "KTM",
+        "elevation": "1,338 m",
+        "serves": "Kathmandu",
+        "phone": "01-4113033",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.7317,
+          27.6875
+        ]
+      },
+      "properties": {
+        "title": "Tenzinghillary Airport",
+        "description": "Lukla - Everest Base Camp Trekking Route 30, Chaunrikharka",
+        "code": "LUA",
+        "elevation": "2,860m",
+        "serves": "Lukla",
+        "phone": "981-5946280",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9784,
+          28.1994
+        ]
+      },
+      "properties": {
+        "title": "Pokhara Airport",
+        "description": "Pokhara",
+        "code": "PKR",
+        "elevation": "827 m",
+        "serves": "Pokhara",
+        "phone": "061-463038",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4198,
+          27.5071
+        ]
+      },
+      "properties": {
+        "title": "Gautam Buddha Airport",
+        "description": "Siddharthanagar",
+        "code": "BWA",
+        "elevation": "109m",
+        "serves": "Siddharthanagar",
+        "phone": "071-526387",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4299,
+          27.6781
+        ]
+      },
+      "properties": {
+        "title": "Bharatpur Airport",
+        "description": "Bharatpur",
+        "code": "BHR",
+        "elevation": "183m",
+        "serves": "Bharatpur",
+        "phone": "056-524975",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.2655,
+          26.4828
+        ]
+      },
+      "properties": {
+        "title": "Biratnagar Airport",
+        "description": "Biratnagar",
+        "code": "BIR",
+        "elevation": "236m",
+        "serves": "Biratnagar",
+        "phone": "021-462060",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.5844,
+          27.5164
+        ]
+      },
+      "properties": {
+        "title": "Phaplu Airport",
+        "description": "Dudhakunda",
+        "code": "PPL",
+        "elevation": "N/A",
+        "serves": "Solududhkunda",
+        "phone": "038-520153",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.7232,
+          28.7819
+        ]
+      },
+      "properties": {
+        "title": "Jomsom Airport",
+        "description": "Jomsom",
+        "code": "JOM",
+        "elevation": "2,682m",
+        "serves": "Jomsom",
+        "phone": "N/A",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.9240,
+          26.7088
+        ]
+      },
+      "properties": {
+        "title": "Janakpur Airport",
+        "description": "Janakpur",
+        "code": "JKR",
+        "elevation": "256m",
+        "serves": "Kathmandu",
+        "phone": "N/A",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6673,
+          28.1018
+        ]
+      },
+      "properties": {
+        "title": "Nepalgunj Airport",
+        "description": "H 12, Manikapur",
+        "code": "KEP",
+        "elevation": "540m",
+        "serves": "Nepalgunj",
+        "phone": "081-565210",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8187,
+          29.9711
+        ]
+      },
+      "properties": {
+        "title": "Simikot Airport",
+        "description": "Jahaaje Baato, Simikot",
+        "code": "IMK",
+        "elevation": "2,818m",
+        "serves": "Simikot",
+        "phone": "981-5946280",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9802,
+          27.1634
+        ]
+      },
+      "properties": {
+        "title": "Simara Airport",
+        "description": "Airport Rd 44412, Gadhimai",
+        "code": "SIF",
+        "elevation": "137 m",
+        "serves": "N/A",
+        "phone": "053-520210",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8195,
+          28.9853
+        ]
+      },
+      "properties": {
+        "title": "Dolpa Airport",
+        "description": "Juphal",
+        "code": "DOP",
+        "elevation": "N/A",
+        "serves": "Dolpa District, Thuli Bheri",
+        "phone": "N/A",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.0775,
+          26.5695
+        ]
+      },
+      "properties": {
+        "title": "Bhadrapur Airport",
+        "description": "Bhadrapur Airport, Birtamod-Chandragadhi Road, Bhadrapur",
+        "code": "BDP",
+        "elevation": "91m",
+        "serves": "Bhadrapur",
+        "phone": "023-455432",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5826,
+          28.7553
+        ]
+      },
+      "properties": {
+        "title": "Dhangadhi Airport",
+        "description": "Attariya",
+        "code": "DHI",
+        "elevation": "210m",
+        "serves": "N/A",
+        "phone": "091-575219",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.1948,
+          27.3157
+        ]
+      },
+      "properties": {
+        "title": "Tumlingtar Airport",
+        "description": "Khandbari",
+        "code": "TMI",
+        "elevation": "518m",
+        "serves": "Tumlingtar",
+        "phone": "029-575207",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.7125,
+          27.8112
+        ]
+      },
+      "properties": {
+        "title": "Syangboche Airport",
+        "description": "Khumjung VDC, Solu Khumbu",
+        "code": "SYH",
+        "elevation": "N/A",
+        "serves": "Namche Bazaar",
+        "phone": "984-1633182",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0864,
+          28.6417
+        ]
+      },
+      "properties": {
+        "title": "Manang Airport",
+        "description": "Manang Sadak, Upper Manang",
+        "code": "NGX",
+        "elevation": "3,353m",
+        "serves": "Manang",
+        "phone": "N/A",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2943,
+          28.1114
+        ]
+      },
+      "properties": {
+        "title": "Tarigaun Airport",
+        "description": "Tulsipur",
+        "code": "DMP",
+        "elevation": "640m",
+        "serves": "Tulsipur",
+        "phone": "082-520369",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.1920,
+          29.2739
+        ]
+      },
+      "properties": {
+        "title": "Jumla Airport",
+        "description": "Chandannath",
+        "code": "JUM",
+        "elevation": "N/A",
+        "serves": "Jumla",
+        "phone": "985-8320135",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.2280,
+          27.5766
+        ]
+      },
+      "properties": {
+        "title": "Meghauli Airport",
+        "description": "Narayani",
+        "code": "MEY",
+        "elevation": "N/A",
+        "serves": "Meghauli",
+        "phone": "N/A",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3262,
+          27.7191
+        ]
+      },
+      "properties": {
+        "title": "Bitcoin Nepal",
+        "description": "Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3201,
+          27.7215
+        ]
+      },
+      "properties": {
+        "title": "New Nepal Money Exchange",
+        "description": "Lazimpat Road, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3200,
+          27.6903
+        ]
+      },
+      "properties": {
+        "title": "Nepal Rastra Bank",
+        "description": "Thapathali, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3808,
+          27.6782
+        ]
+      },
+      "properties": {
+        "title": "Nepal Bank",
+        "description": "Araniko Highway, Madhyaour Thimi",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3182,
+          27.7189
+        ]
+      },
+      "properties": {
+        "title": "Standard Chartered Bank",
+        "description": "Lazimpat, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4301,
+          27.6714
+        ]
+      },
+      "properties": {
+        "title": "Bhaktpur Money Exchange",
+        "description": "Bakhtapur",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3276,
+        27.7154
+        ]
+      },
+      "properties": {
+        "title": "Nepal Police Headquarters",
+        "description": "Sama Marg, Kathmandu ",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "police"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3490,
+          27.6788
+        ]
+      },
+      "properties": {
+        "title": "Koteshwor Police Station",
+        "description": "Chautarphi Marg, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "police"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3255,
+          27.7102
+        ]
+      },
+      "properties": {
+        "title": "Kamalpokhari Police Station",
+        "description": "Kamal Pokhari St, Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "police"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2995,
+          27.6973
+        ]
+      },
+      "properties": {
+        "title": "Kalimati Police Station",
+        "description": "Kathmandu",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "police"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3118,
+          27.5738
+        ]
+      },
+      "properties": {
+        "title": "Tikabhairav Police Station",
+        "description": "Karyabinayak",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "police"
+      }
+    }
+  ]
+};
