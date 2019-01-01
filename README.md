@@ -22,6 +22,7 @@ Website made for Hackthon at IT Meet v8.0 organized by Kathmandu University
 - Used **HTML5**, **CSS3** and **JS** for making the webpages.
 - Used **Mapbox** *v3.1.1* **Leaflet API** for maps
 - Tested on **Google Chrome** *Version 71.0.3578.98 (Official Build) (64-bit)* running on **Windows 10** and **Windows 7**
+- [Link](https://colorlib.com/wp/template/photon/) to slider template used in **[index.html](index.html)** page.
 
 ## Installing
 - To clone this repo
