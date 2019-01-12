@@ -6,12 +6,13 @@ const myLayer = L.mapbox.featureLayer().addTo(map);
 
 map.on('load', function(e) {
     map.locate();
+    map.setView([28, 84], 7);
 });
 
 map.on('locationfound', function(e) {
     map.fitBounds(e.bounds);
 
-    map.setView([e.latlng.lat, e.latlng.lng], 7);
+    map.setView([e.latlng.lat, e.latlng.lng], 10);
 
     myLayer.setGeoJSON({
         type: 'Feature',
