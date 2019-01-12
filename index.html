@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/png" href="./images/logo.png">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Experience Nepal</title>
+
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+
+        <!-- Bootstrap 4 links -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+            integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+        <!-- Swiper css links -->
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="swiper/icomoon/style.css">
+        <link rel="stylesheet" href="swiper/swiper.css">
+        <link rel="stylesheet" href="swiper/style.css">
+    
+    </head>
+
+    <body>
+
+        <!-- Nav bar from getbootstrap.com-->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" height="60" width="120">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link activ" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Packages</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <!-- Bottom Navigation -->
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+
+            <!-- Images -->
+            <div class="carousel-inner overflow-hidden">
+                <div class="carousel-item active">
+                    <img src="./images/carousel/carousel 1.jpg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-2">Namaste and Welcome To Nepal</h1>
+                        <a class="btn btn-lg btn-primary" href="http://www.nepalairlines.com.np/home" role="button" target="_blank">Book tickets today</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel/bg1.jpg">
+                    <div class="carousel-caption d-none d-lg-block row">
+                        <div class="col-lg-10 col-xl-6 float-right fig-abs">
+                            <h3>Everest Base Camp</h3>
+                            <p>
+                                Everest's daunting summit soars so high that trekking to its base came (17.590`) is still an adventure of the
+                                highest sort. a 14-day Himalayan trek to Everest's Sourthen Face Base Cammp through some of the world's most
+                                spectacular mountain scenery. Spend two days discovering treasure of Kathmandu. Stay in the village set against
+                                soaring, jagged pinnacles; get to know the unique culture of the Sherpas; and wwalk trails lined with main stones,
+                                engraved with Tibetian Buddhist prayers. Discover remote mountains monasteries and learn about the Sherpas'
+                                spiritual prespective on the mountains they call home.
+                            </p>
+                            <a class="btn btn-lg btn-primary" href="https://www.nepalbasecamptreks.com/" role="button" target="_blank">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel/bg2.jpg">
+                    <div class="carousel-caption d-none d-lg-block row">
+                        <div class="col-lg-10 col-xl-6 float-right fig-abs">
+                            <h3>Rara Lake</h3>
+                            <p>
+                                The wounderful journey starting with a scenic flight to warm tropic at Nepalgunj city in Nepal's Far South West, and
+                                then taking another sweeping flight to the land in Jumla where our walk begins to Rara Lake visiting, the trail leads
+                                through interesting villages of Hindu, Thakuri, Malla and Tibetian influenced tribes with rich old traditions and
+                                customes, walk leads with amazing views of high snow capped mountains at Rara Lake with time to marvel its spectacular
+                                scenery and surrounding in complete wilderness with views of distant mountans, after a enjoyable time around Rara Lake.
+                            </p>
+                            <a class="btn btn-lg btn-primary" href="https://www.nepalbasecamptreks.com/" role="button" target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Two Column -->
+        <div id="about" class="container-fluid padding two-column">
+            <!-- 1st row -->
+            <div class="row padding">
+                <div class="col-md-12 col-lg-7 align-self-center col-txt">
+                    <h2>Visit Nepal 2020, It’ll blow your mind.</h2>
+                    <p>
+                        Welcome visitors to celebrate the year 2020 which is chosen as national tourism year of Nepal after the year 2011 which was
+                        the primary authority tourism year of new Federal Democratic Republic of Nepal.
+                    </p>
+                    <p>
+                        The government and tourism department of Nepal authoritatively reported that Nepal will take year 2020 as "Visit Nepal 2020", 
+                        a year committed to tourism industry of Nepal with vision of making a reasonable brand picture of Nepal as travel and
+                        vacationer destination, backing up the tourism foundations of Nepal, enhance the growth of tourism industry, and enhance
+                        locale tourism as supportable industry. The legislature has wanted to accommodate more than one million visitors amid the
+                        year of “Visit Nepal 2020”.
+                    </p>
+                    <a href="http://www.nepalvisit2020.com/" target="_blank" class="btn btn-primary" role="button">Learn more</a>
+                </div>
+                <div class="col-md-8 col-lg-5 align-self-center col-img">
+                    <img class="img-fluid" src="./images/two column/row1.jpg">
+                </div>
+            </div>
+
+            <!-- 2nd row -->
+            <div class="row padding">
+                <div class="col-md-8 col-lg-5 align-self-center col-img">
+                    <img class="img-fluid" src="./images/two column/row2.jpg">
+                </div>
+                <div class="col-md-12 col-lg-7 align-self-center col-txt">
+                    <h2>Why should you visit Nepal? See for yourself.</h2>
+                    <p>
+                        Nepal is fifth among the Top 10 countries to visit in the world and number one in Best Valued Destination in the World. Why wouldn’t they be,
+                        Nepal boasts pristine natural beauty, sky-high Himalayas Range and endless culture and traditions spread out all over the country.
+                        <ol>
+                            <li>Trekking and Mountain Climbing</li>
+                            <li>Culture Tradition and UNESCO World Heritage Sites</li>
+                            <li>BioDiversity of Birds and Watching endangered animals</li>
+                            <li>Aventure Sports</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3rd row -->
+            <div class="row padding">
+                <div class="col-md-12 col-lg-7 align-self-center col-txt">
+                    <h2>Is Nepal Safe to Travel after 2015 Earthquake?</h2>
+                    <p>
+                        The earthquake of April 25, 2015, killed 8686 people leaving thousands injured and many more homeless. The rural parts of Nepal are still
+                        recovering from the damage caused by the incident. The resulting year saw tourists number all-time low in preceding six years. The Visit Nepal
+                        2020 campaign can be the backbone to support the fragile economic conditions of numerous families in the rural areas. Some media outlets reports
+                        of Nepal in the state of complete devastation and buried under heaps of pile is wrong. The earthquake mostly downed old buildings made of mud and
+                        some temples around the affected districts. The majority of Kathmandu remains intact which was not shown in the media, all a scheme to generate
+                        more TRP. Nepal was affected majorly in about 5 districts and minorly in 7 other districts. All other destinations are entirely untouched.
+                        The repair and reconstruction of temples and heritage sites are underway and will finish come 2020. Nepal, It’s People, Culture and the Beautiful
+                        Paradise Still Lives.
+                    </p>
+                </div>
+                <div class="col-md-8 col-lg-5 align-self-center col-img">
+                    <img class="img-fluid" src="./images/two column/row3.jpg">
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider -->
+        <div class="container-fluid">
+            <h2 id="packages" class="display-2">Packages</h2>
+
+            <div id="swiper" data-aos="fade" data-aos-delay="500">
+                <div class="swiper-container images-carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image-wrap">
+                                <div class="image-info">
+                                    <a href="single.html" class="btn btn-outline-white py-2 px-4">Accessories</a>
+                                </div>
+                                <img src="images/packages/accessory.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-wrap">
+                                <div class="image-info">
+                                    <a href="single.html" class="btn btn-outline-white py-2 px-4">Adventures</a>
+                                </div>
+                                <img src="images/packages/adventure.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-wrap">
+                                <div class="image-info">
+                                    <a href="single.html" class="btn btn-outline-white py-2 px-4">Museums</a>
+                                </div>
+                                <img src="images/packages/museums.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-wrap">
+                                <div class="image-info">
+                                    <a href="single.html" class="btn btn-outline-white py-2 px-4">Wildlife</a>
+                                </div>
+                                <img src="images/packages/national.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-wrap">
+                                <div class="image-info">
+                                    <a href="single.html" class="btn btn-outline-white py-2 px-4">Pilgrimage</a>
+                                </div>
+                                <img src="images/packages/temple.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-wrap">
+                                <div class="image-info">
+                                    <a href="single.html" class="btn btn-outline-white py-2 px-4">Heritage</a>
+                                </div>
+                                <img src="images/packages/heritage.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner or App coming soon-->
+        <div id="banner" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div id="banner-text" class="col-md-5 p-lg-5 mx-auto my-5">
+                <h1 class="display-4 font-weight-normal">Experience Nepal App</h1>
+                <!--<p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>-->
+                <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+            </div>
+            <div class="product-device box-shadow d-none d-md-block"></div>
+            <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container-fluid">
+                <p>
+                    Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                    <script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >
+                    Colorlib</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Swiper js links -->
+        <script src="swiper/jquery-3.3.1.min.js"></script>
+        <script src="swiper/jquery-migrate-3.0.1.min.js"></script>
+        <script src="swiper/owl.carousel.min.js"></script>
+        <script src="swiper/jquery.stellar.min.js"></script>
+        <script src="swiper/jquery.countdown.min.js"></script>
+        <script src="swiper/jquery.magnific-popup.min.js"></script>
+        <script src="swiper/swiper.min.js"></script>
+        <script src="swiper/aos.js"></script>
+        <script src="swiper/picturefill.min.js"></script>
+        <script src="swiper/main.js"></script>
+
+    </body>
+</html>
