@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   color: #404040;
   font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
@@ -13,15 +18,26 @@ body {
   box-sizing: border-box;
 }
 
-img {
-  height: 95%;
-  width: auto;
-  padding: 0;
+.navbar {
+    padding: .8rem;
 }
 
-.map {
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.map-container {
   width: 99vw;
-  height: 91vh;
+  height: 84vh;
   margin: 1vh auto;
-  margin-top: 8vh;
+  padding: 0px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
 }
