@@ -13,15 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-header {
-  width: 100vw;
-  height: 14vh;
-  margin-bottom: 1vh;
-  background-image: linear-gradient(#8e9eab,#ffffff);
-  text-align: left;
-  padding-left: 10px;
-}
-
 img {
   height: 95%;
   width: auto;
@@ -30,7 +21,7 @@ img {
 
 .map {
   width: 98vw;
-  height: 83vh;
-  padding: 0px;
+  height: 91vh;
   margin: 1vh auto;
+  margin-top: 8vh;
 }
