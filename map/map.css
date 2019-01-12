@@ -31,9 +31,9 @@ body {
 }
 
 .map-container {
-  width: 99vw;
-  height: 84vh;
-  margin: 1vh auto;
+  width: 99%;
+  height: 84%;
+  margin: 1% auto;
   padding: 0px;
 }
 
