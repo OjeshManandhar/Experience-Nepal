@@ -1,0 +1,84 @@
+table {
+    width: 90vw;
+    height: 90vh;
+    margin: 5vh 5vw;
+    text-align: center;
+}
+
+tr {
+    height: 25vh;
+    margin-bottom: 5vh;
+}
+
+td {
+    width: 25vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+
+    border: 1px solid blue;
+}
+.res
+{
+    width: 100px;
+    height:100px;
+}
+
+.ghost-btn {
+  font-family: "Arial";
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #3f6fa0;
+  height: 36px;
+  line-height: 36px;
+  color: #3f6fa0;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
+  font-size: 1em;
+  padding: .5em 1.5em;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background: #ffffff;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  zoom: 1;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+}
+.ghost-btn:hover {
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  background-color: #3f6fa0;
+  color: #ffffff;
+}
+.ghost-btn:focus {
+  outline: none;
+}
+.ghost-button {
+ color: #009688;
+ background: #fff;
+ border: 1px solid #009688;
+ font-size: 17px;
+ padding: 7px 12px;
+ font-weight: normal;
+ margin: 6px 0;
+ margin-right: 12px;
+ display: inline-block;
+ text-decoration: none;
+ font-family: 'Open Sans', sans-serif;
+ min-width: 120px;
+}
+.ghost-button:hover, .ghost-button:activate{
+    color:#fff;
+    background: #009688;
+}
+
