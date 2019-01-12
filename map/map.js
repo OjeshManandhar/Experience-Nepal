@@ -11,7 +11,7 @@ map.on('load', function(e) {
 map.on('locationfound', function(e) {
     map.fitBounds(e.bounds);
 
-    map.setView([e.latlng.lat, e.latlng.lng], 10);
+    map.setView([e.latlng.lat, e.latlng.lng], 7);
 
     myLayer.setGeoJSON({
         type: 'Feature',
