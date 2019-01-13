@@ -68,6 +68,10 @@ html, body {
     font-size: 150%;
 }
 
+#swiper .btn {
+    border-radius: 15%;
+}
+
 #banner-text {
     z-index: 5;
 }
