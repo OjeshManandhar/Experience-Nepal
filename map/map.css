@@ -19,20 +19,24 @@ body {
 }
 
 .navbar {
-    padding: .8rem;
+  padding: .8rem;
+}
+
+.nav-brand {
+    font-size: 1.3rem !important;
 }
 
 .navbar-nav li {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .nav-link {
-    font-size: 1.1em !important;
+  font-size: 1.1em !important;
 }
 
 .map-container {
   width: 99%;
-  height: 84%;
+  height: 87%;
   margin: 1% auto;
   padding: 0px;
 }
@@ -40,4 +44,6 @@ body {
 #map {
   height: 100%;
   width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
