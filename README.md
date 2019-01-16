@@ -4,11 +4,13 @@ Website made for Hackthon at IT Meet v8.0 organized by Kathmandu University
 ## Screenshots
 ![Homepage](/screenshots/index.png)
 
+![Homepage](/screenshots/swiper.png)
+
 ![Asking GPS permission](/screenshots/gps.png)
 
-![Accessories across Nepal](/screenshots/nepal.png)
-
 ![Accessories nearby](/screenshots/airports.png)
+
+![Accessories across Nepal](/screenshots/heritage.png)
 
 ## Idea
 - [X] Create different packages for users. Each package contains information of places like Pilgrimage, World Heritage Sites, etc. of Nepal.
@@ -48,6 +50,6 @@ Website made for Hackthon at IT Meet v8.0 organized by Kathmandu University
 
 [Shristi Singh Dongol](https://github.com/shrisingdon) - Logo Design, Front-end, Data collection
 
-[Shrijan Bahadur Bajracharya](https://github.com/ShriBuzz) - Logo Design, Data collection, Presentaion
+[Shrijan Bahadur Bajracharya](https://github.com/ShriBuzz) - Logo Design, Data collection, Presentation
 
 [Palisha Shrestha](https://github.com/palishashrestha) - Data collection
