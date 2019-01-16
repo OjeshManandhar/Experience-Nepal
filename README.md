@@ -4,13 +4,13 @@ Website made for Hackthon at IT Meet v8.0 organized by Kathmandu University
 ## Screenshots
 ![Homepage](/screenshots/index.png)
 
-![Homepage](/screenshots/swiper.png)
+![Swiper](/screenshots/swiper.png)
 
 ![Asking GPS permission](/screenshots/gps.png)
 
 ![Accessories nearby](/screenshots/airports.png)
 
-![Accessories across Nepal](/screenshots/heritage.png)
+![Herigate across Nepal](/screenshots/heritage.png)
 
 ## Idea
 - [X] Create different packages for users. Each package contains information of places like Pilgrimage, World Heritage Sites, etc. of Nepal.
@@ -25,6 +25,7 @@ Website made for Hackthon at IT Meet v8.0 organized by Kathmandu University
 - Used **Mapbox** *v3.1.1* **Leaflet API** for maps
 - Tested on **Google Chrome** *Version 71.0.3578.98 (Official Build) (64-bit)* running on **Windows 10** and **Windows 7**
 - [Link](https://colorlib.com/wp/template/photon/) to slider template used in **[index.html](index.html)** page.
+- New [**Homepage**](index.html) was copied from [Experience Nepal Homepage](https://github.com/OjeshManandhar/Experience-Nepal-Homepage)
 
 ## Installing
 - To clone this repo
