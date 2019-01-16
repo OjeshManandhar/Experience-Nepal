@@ -17,7 +17,7 @@ const adventures = {
         "description":"Boat tours, water sports, kayaking, canoeing, rafting & tubing",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -87,7 +87,7 @@ const adventures = {
         "description":"kayaking, canyoning & rafting",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -106,7 +106,7 @@ const adventures = {
         "description":"kayaking, canyoning & rafting",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -125,7 +125,7 @@ const adventures = {
         "description":"canyoning & Climbing",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -144,7 +144,7 @@ const adventures = {
         "description":"Mountaineering Expeditions, Peak Climbing, Trekking",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -163,7 +163,7 @@ const adventures = {
         "description":"Wall Climbing",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -182,7 +182,7 @@ const adventures = {
         "description":"Jungle Safari",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -201,7 +201,7 @@ const adventures = {
         "description":"Bungy Nepal-style!,Canyon Swing,Canyoning,High Ropes,White Water Rafting,Tandem swing",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -220,7 +220,7 @@ const adventures = {
         "description":"paragliding, skydiving, free falls, hang gliding, paramotoring",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -239,7 +239,7 @@ const adventures = {
         "description":"Eco trek, Medical trek, Yoga trek, Cleaning trek, Nepal community trek",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -258,7 +258,7 @@ const adventures = {
         "description":"Eco trek, Medical trek, Yoga trek, Cleaning trek, Nepal community trek",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -277,7 +277,7 @@ const adventures = {
         "description":"Trekking, Mountain Biking ",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -296,7 +296,7 @@ const adventures = {
         "description":"Mountain Biking ",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -315,7 +315,7 @@ const adventures = {
         "description":"Sky Diving ",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
       }
     },
     {
@@ -334,7 +334,24 @@ const adventures = {
         "description":"Mountain Flights ",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing",            
+        "marker-symbol": "skiing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          ,
+
+        ]
+      },
+      "properties": {
+        "title": "Pach Pokhari",
+        "description": "4919 m",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "water"
       }
     }
   ]
