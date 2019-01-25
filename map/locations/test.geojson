@@ -18,8 +18,8 @@ const accessories = {
         "serves": "Kathmandu",
         "phone": "01-4113033",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     }, 
     {
@@ -39,8 +39,8 @@ const accessories = {
         "serves": "Lukla",
         "phone": "981-5946280",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -60,8 +60,8 @@ const accessories = {
         "serves": "Pokhara",
         "phone": "061-463038",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -81,8 +81,8 @@ const accessories = {
         "serves": "Siddharthanagar",
         "phone": "071-526387",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -102,8 +102,8 @@ const accessories = {
         "serves": "Bharatpur",
         "phone": "056-524975",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -123,8 +123,8 @@ const accessories = {
         "serves": "Biratnagar",
         "phone": "021-462060",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -144,8 +144,8 @@ const accessories = {
         "serves": "Solududhkunda",
         "phone": "038-520153",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -165,8 +165,8 @@ const accessories = {
         "serves": "Jomsom",
         "phone": "N/A",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -186,8 +186,8 @@ const accessories = {
         "serves": "Kathmandu",
         "phone": "N/A",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -207,8 +207,8 @@ const accessories = {
         "serves": "Nepalgunj",
         "phone": "081-565210",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -228,8 +228,8 @@ const accessories = {
         "serves": "Simikot",
         "phone": "981-5946280",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -249,8 +249,8 @@ const accessories = {
         "serves": "N/A",
         "phone": "053-520210",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -270,8 +270,8 @@ const accessories = {
         "serves": "Dolpa District, Thuli Bheri",
         "phone": "N/A",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -291,8 +291,8 @@ const accessories = {
         "serves": "Bhadrapur",
         "phone": "023-455432",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -312,8 +312,8 @@ const accessories = {
         "serves": "N/A",
         "phone": "091-575219",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -333,8 +333,8 @@ const accessories = {
         "serves": "Tumlingtar",
         "phone": "029-575207",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -354,8 +354,8 @@ const accessories = {
         "serves": "Namche Bazaar",
         "phone": "984-1633182",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -375,8 +375,8 @@ const accessories = {
         "serves": "Manang",
         "phone": "N/A",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -396,8 +396,8 @@ const accessories = {
         "serves": "Tulsipur",
         "phone": "082-520369",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -417,8 +417,8 @@ const accessories = {
         "serves": "Jumla",
         "phone": "985-8320135",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -438,8 +438,8 @@ const accessories = {
         "serves": "Meghauli",
         "phone": "N/A",
         "marker-color": "#fc4353",
-        "icon-size": 2,
-        "icon": "airport"
+        "marker-size": "large",
+        "marker-symbol": "airport"
       }
     },
     {
@@ -455,7 +455,7 @@ const accessories = {
         "title": "Bitcoin Nepal",
         "description": "Kathmandu",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "bank"
       }
     },
@@ -472,7 +472,7 @@ const accessories = {
         "title": "New Nepal Money Exchange",
         "description": "Lazimpat Road, Kathmandu",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "bank"
       }
     },
@@ -489,7 +489,7 @@ const accessories = {
         "title": "Nepal Rastra Bank",
         "description": "Thapathali, Kathmandu",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "bank"
       }
     },
@@ -506,7 +506,7 @@ const accessories = {
         "title": "Nepal Bank",
         "description": "Araniko Highway, Madhyaour Thimi",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "bank"
       }
     },
@@ -523,7 +523,7 @@ const accessories = {
         "title": "Standard Chartered Bank",
         "description": "Lazimpat, Kathmandu",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "bank"
       }
     },
@@ -540,7 +540,7 @@ const accessories = {
         "title": "Bhaktpur Money Exchange",
         "description": "Bakhtapur",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "bank"
       }
     },
@@ -557,7 +557,7 @@ const accessories = {
         "title": "Nepal Police Headquarters",
         "description": "Sama Marg, Kathmandu ",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "police"
       }
     },
@@ -574,7 +574,7 @@ const accessories = {
         "title": "Koteshwor Police Station",
         "description": "Chautarphi Marg, Kathmandu",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "police"
       }
     },
@@ -591,7 +591,7 @@ const accessories = {
         "title": "Kamalpokhari Police Station",
         "description": "Kamal Pokhari St, Kathmandu",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "police"
       }
     },
@@ -608,7 +608,7 @@ const accessories = {
         "title": "Kalimati Police Station",
         "description": "Kathmandu",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "police"
       }
     },
@@ -625,7 +625,7 @@ const accessories = {
         "title": "Tikabhairav Police Station",
         "description": "Karyabinayak",
         "marker-color": "#fc4353",
-        "icon-size": 2,
+        "marker-size": "large",
         "marker-symbol": "police"
       }
     }

@@ -25,8 +25,10 @@ map.on('load', function(e) {
     });
 });
 
+//Show Navigation Controls i.e. Zoom In, Zoom Out and Comaps
 map.addControl(new mapboxgl.NavigationControl());
 
+//Show find position control
 map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: {
         enableHighAccuracy: true
