@@ -1,8 +1,47 @@
-.map {
-    border-left: 1px solid #fff;
-    position: absolute;
-    left: 33.3333%;
-    width: 66.6666%;
-    top: 0;
-    bottom: 0;
-  }
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #404040;
+    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.main-section {
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 0px;
+    margin: 0xp;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.nav-brand {
+    font-size: 1.3rem !important;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.map-container {
+    height: 100%;
+    width: 100%;
+}
