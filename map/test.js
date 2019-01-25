@@ -25,6 +25,8 @@ map.on('load', function(e) {
     });
 });
 
+map.addControl(new mapboxgl.NavigationControl());
+
 map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: {
         enableHighAccuracy: true
