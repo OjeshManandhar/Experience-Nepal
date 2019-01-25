@@ -24,3 +24,10 @@ map.on('load', function(e) {
         }
     });
 });
+
+map.addControl(new mapboxgl.GeolocateControl({
+    positionOptions: {
+        enableHighAccuracy: true
+    },
+    trackUserLocation: true
+}));
