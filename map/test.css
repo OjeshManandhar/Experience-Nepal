@@ -53,7 +53,7 @@ body {
 }
 
 .map {
-    border-left: 1px solid black;
+    border-left: 2px solid white;
     padding: 0px;
     margin: 0px;
 }
@@ -61,4 +61,65 @@ body {
 #map {
     height: 100%;
     width: 100%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+}
+
+.listings {
+    max-height: 5000px;
+    overflow: auto;
+}
+
+.listings .item {
+    display: block;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.listings .item:last-child { border-bottom: none; }
+
+.listings .item .title {
+  display: block;
+  color: #00853e;
+  font-weight: 700;
+}
+
+.listings .item .title small { font-weight: 400; }
+
+.listings .item.active .title,
+.listings .item .title:hover { color: #8cc63f; }
+
+.listings .item.active {
+    background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-left: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00853e;
+    border-radius: 0;
 }
