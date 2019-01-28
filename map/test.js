@@ -20,7 +20,7 @@ function createPopUp(currentFeature) {
 }
 
 function buildLocationList(data) {
-    // Iterate through the list of stores
+    // Iterate through the list of geojson
     for (i = 0; i < data.features.length; i++) {
         var currentFeature = data.features[i];
         // Shorten data.feature.properties to just `prop` so we're not
@@ -71,6 +71,17 @@ var map = new mapboxgl.Map({
     zoom: 6.25
 });
 
+//Show Navigation Controls i.e. Zoom In, Zoom Out and Comaps
+map.addControl(new mapboxgl.NavigationControl());
+
+//Show find position control
+map.addControl(new mapboxgl.GeolocateControl({
+    positionOptions: {
+        enableHighAccuracy: true
+    },
+    trackUserLocation: true
+}));
+
 map.on('load', function(e) {
     // Add the data to your map as a layer
     map.addLayer({
@@ -91,16 +102,15 @@ map.on('load', function(e) {
     buildLocationList(geojson);
 });
 
-//Show Navigation Controls i.e. Zoom In, Zoom Out and Comaps
-map.addControl(new mapboxgl.NavigationControl());
+// Change the cursor to a pointer when the mouse is over the locations layer.
+map.on('mouseenter', 'locations', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
 
-//Show find position control
-map.addControl(new mapboxgl.GeolocateControl({
-    positionOptions: {
-        enableHighAccuracy: true
-    },
-    trackUserLocation: true
-}));
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'locations', function () {
+    map.getCanvas().style.cursor = '';
+});
 
 // Add an event listener for when a user clicks on the map
 map.on('click', function(e) {
@@ -120,8 +130,8 @@ map.on('click', function(e) {
         // Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
         var selectedFeature = clickedPoint.properties.address;
 
-        for (var i = 0; i < stores.features.length; i++) {
-            if (stores.features[i].properties.address === selectedFeature) {
+        for (var i = 0; i < geojson.features.length; i++) {
+            if (geojson.features[i].properties.address === selectedFeature) {
                 selectedFeatureIndex = i;
             }
         }
