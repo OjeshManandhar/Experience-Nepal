@@ -20,42 +20,30 @@ function createPopUp(currentFeature) {
 }
 
 function buildLocationList(data) {
-    // Iterate through the list of geojson
     for (i = 0; i < data.features.length; i++) {
         var currentFeature = data.features[i];
-        // Shorten data.feature.properties to just `prop` so we're not
-        // writing this long form over and over again.
         var prop = currentFeature.properties;
-        // Select the listing container in the HTML and append a div
-        // with the class 'item' for each store
+
         var listings = document.getElementById('listings');
         var listing = listings.appendChild(document.createElement('div'));
         listing.className = 'item';
-        listing.id = 'listing-' + i;
+        listing.id = "listing-" + i;
 
-        // Create a new link with the class 'title' for each store
-        // and fill it with the store address
         var link = listing.appendChild(document.createElement('a'));
         link.href = '#';
         link.className = 'title';
         link.dataPosition = i;
         link.innerHTML = prop.title;
 
-        // Create a new div with the class 'details' for each store
-        // and fill it with the city and phone number
         var details = listing.appendChild(document.createElement('div'));
         details.innerHTML = prop.description;
-
-        // Add an event listener for the links in the sidebar listing
-        link.addEventListener('click', function(e) {
-            // Update the currentFeature to the store associated with the clicked link
+        
+        link.addEventListener('click', function(e){
             var clickedListing = data.features[this.dataPosition];
-            // 1. Fly to the point associated with the clicked link
             flyToStore(clickedListing);
-            // 2. Close all other popups and display popup for clicked store
             createPopUp(clickedListing);
-            // 3. Highlight listing in sidebar (and remove highlight for all other listings)
             var activeItem = document.getElementsByClassName('active');
+
             if (activeItem[0]) {
                 activeItem[0].classList.remove('active');
             }
@@ -128,10 +116,10 @@ map.on('click', function(e) {
             activeItem[0].classList.remove('active');
         }
         // Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
-        var selectedFeature = clickedPoint.properties.address;
+        var selectedFeature = clickedPoint.properties.title;
 
         for (var i = 0; i < geojson.features.length; i++) {
-            if (geojson.features[i].properties.address === selectedFeature) {
+            if (geojson.features[i].properties.title === selectedFeature) {
                 selectedFeatureIndex = i;
             }
         }

@@ -33,50 +33,48 @@
             const geojson = accessories;
         </script>
 
+        <!-- Link to font -->
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
+
     </head>
 
     <body>
-        <div class="main-section d-flex flex-column bd-highlight" style="border: 5px solid blue;">
-            <!-- Navbar-->
-            <div class="bd-highlight">
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-                    <a class="navbar-brand" href="#">Accessories</a>
-        
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse" id="navbarToggler">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link activ" href="./../../index.html?#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./../../index.html?#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./../../index.html?#packages">Packages</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top mb-1 text-center">
+            <a class="navbar-brand" href="#">Accessories</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link activ" href="./../../index.html?#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../../index.html?#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../../index.html?#packages">Packages</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
 
-            <!-- Map and sidebar -->
-            <div class="map-container flex-fill d-flex bd-highlight align-items-stretch text-left" style="border: 5px solid red;">
-                <div class="flex-fill d-flex container-fluid" style="border: 5px solid black;">
-                    <div class="flex-fill d-flex row padding">
-                        <div class="sidebar flex-fill d-none d-md-block col-md-6 col-lg-4">
-                            <div class="flex-fill heading">
-                                <h1>Accessories</h1>
-                            </div>
-                            <div id="listings" class="flex-fill listings"></div>
-                        </div>
-
-                        <div class="map col-sm-12 col-md-6 col-lg-8">
-                            <div id="map"></div>
-                        </div>
+        <div class="wrapper container-fluid p-0 m-b-2">
+            <div class="map-section row">
+                <!-- Sidebar -->
+                <div class="sidebar d-none d-md-block col-md-6 col-lg-4 p-0">
+                    <div class="heading">
+                        <h1>Accessories</h1>
                     </div>
+
+                    <div id="listings" class="listings"></div>
+                </div>
+
+                <!-- Map -->
+                <div class="map col-sm-12 col-md-6 col-lg-8">
+                    <div id="map"></div>
                 </div>
             </div>
         </div>

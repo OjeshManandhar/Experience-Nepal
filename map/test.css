@@ -1,22 +1,9 @@
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
 body {
     color: #404040;
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
-    text-align: center;
-}
-
-.main-section {
-    min-height: 100vh;
-    min-width: 100vw;
-    padding: 0px;
-    margin: 0xp;
 }
 
 * {
@@ -44,7 +31,12 @@ body {
     font-size: 1.1em !important;
 }
 
-.map-container {
+.wrapper {
+    height: 80vh;
+    width: 100vw;
+}
+
+.map-section {
     height: 100%;
     width: 100%;
 
@@ -63,26 +55,35 @@ body {
     width: 100%;
 }
 
+/*Listings*/
 .sidebar {
-    height: 100%;
-    width: 100%;
+    overflow: hidden;
+}
 
-    padding: 0px;
-    margin: 0px;
+a {
+    color:#404040;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#101010;
 }
 
 .heading {
-    background: #fff;
-    border-bottom: 1px solid #eee;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 10px;
+    background:#fff;
+    border-bottom:1px solid #eee;
+    min-height:60px;
+    line-height:60px;
+    padding:0 10px;
+    background-color: #00853e;
+    color: #fff;
 }
 
 .listings {
-    max-height: 5000px;
-    overflow: auto;
-}
+    height:100%;
+    overflow:auto;
+    padding-bottom:60px;
+  }
 
 .listings .item {
     display: block;
@@ -125,14 +126,13 @@ body {
 }
 
 /* Marker tweaks */
-.mapboxgl-popup-close-button {
-    display: none;
+.mapboxgl-popup {
+    padding-bottom: 10px;
 }
 
 .mapboxgl-popup-content {
-    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     padding: 0;
-    width: 180px;
+    width: 200px;
 }
 
 .mapboxgl-popup-content-wrapper {
