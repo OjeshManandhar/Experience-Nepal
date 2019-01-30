@@ -79,6 +79,14 @@ a:hover {
     color: #fff;
 }
 
+.heading h1 {
+    font-size:30px;
+    margin:0;
+    font-weight:400;
+    line-height: 20px;
+    padding: 15px 2px;
+}
+
 .listings {
     height:100%;
     overflow:auto;
