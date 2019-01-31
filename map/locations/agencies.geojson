@@ -6,8 +6,8 @@ const agencies = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                85.3104,
-                27.7155
+                    85.3104,
+                    27.7155
                 ]
             },
             "properties": {
@@ -17,7 +17,7 @@ const agencies = {
                 "description":"Boat tours, water sports, kayaking, canoeing, rafting & tubing",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -36,7 +36,7 @@ const agencies = {
                 "description":"kayaking, canyoning & rafting",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -55,7 +55,7 @@ const agencies = {
                 "description":"kayaking, canyoning & rafting",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -74,7 +74,7 @@ const agencies = {
                 "description":"canyoning & Climbing",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -93,7 +93,7 @@ const agencies = {
                 "description":"Mountaineering Expeditions, Peak Climbing, Trekking",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -112,7 +112,7 @@ const agencies = {
                 "description":"Wall Climbing",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
             {
@@ -131,7 +131,7 @@ const agencies = {
                 "description":"Jungle Safari",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -150,7 +150,7 @@ const agencies = {
                 "description":"Bungy Nepal-style!,Canyon Swing,Canyoning,High Ropes,White Water Rafting,Tandem swing",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
             {
@@ -169,7 +169,7 @@ const agencies = {
                 "description":"paragliding, skydiving, free falls, hang gliding, paramotoring",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -188,7 +188,7 @@ const agencies = {
                 "description":"Eco trek, Medical trek, Yoga trek, Cleaning trek, Nepal community trek",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -207,7 +207,7 @@ const agencies = {
                 "description":"Eco trek, Medical trek, Yoga trek, Cleaning trek, Nepal community trek",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -226,7 +226,7 @@ const agencies = {
                 "description":"Trekking, Mountain Biking ",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -245,7 +245,7 @@ const agencies = {
                 "description":"Mountain Biking ",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -264,7 +264,7 @@ const agencies = {
                 "description":"Sky Diving ",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         },
         {
@@ -283,7 +283,7 @@ const agencies = {
                 "description":"Mountain Flights ",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
-                "marker-symbol": "skiing"
+                "marker-symbol": "star"
             }
         }
     ]
