@@ -13,6 +13,7 @@ const mountains = {
       "properties": {
         "title": "Mt. Everest",
         "address": "Sagarmatha",
+        "redeem": "50",
         "description": "8848 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -32,6 +33,7 @@ const mountains = {
         "title": "Manaslu",
         "address": "",
         "description": "8156 m",
+        "redeem": "45",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain" 
@@ -49,6 +51,7 @@ const mountains = {
       "properties": {
         "title": "Kanchenjunga",
         "address": "",
+        "redeem": "30",
         "description": "8586m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -67,6 +70,7 @@ const mountains = {
       "properties": {
         "title": "Makalu",
         "address": "",
+        "redeem": "50",
         "description": "8481m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -86,6 +90,7 @@ const mountains = {
         "title": "Cho Oyu",
         "address": "",
         "description": "8201m",
+        "redeem": "45",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain"
@@ -104,6 +109,7 @@ const mountains = {
         "title": "Lhotse",
         "address": "",
         "description": "8516m",
+        "redeem": "43",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain"
@@ -122,6 +128,7 @@ const mountains = {
         "title": "Annapurna",
         "address": "",
         "description": "8091 m",
+        "redeem": "39",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain"
@@ -140,6 +147,7 @@ const mountains = {
         "title": "Machapuchare",
         "address": "",
         "description": "6993 m",
+        "redeem": "45",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain"
@@ -158,6 +166,7 @@ const mountains = {
         "title": "Ganesh Hima",
         "address": "",
         "description": "7422m",
+        "redeem": "34",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain"
@@ -174,8 +183,9 @@ const mountains = {
       },
       "properties": {
         "title": "Shishapangma",
-        "address": "",
+        "address": "43",
         "description": "8013m",
+        "redeem": "",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain"
@@ -193,6 +203,7 @@ const mountains = {
       "properties": {
         "title": "Machapuchare",
         "address": "",
+        "redeem": "54",
         "description": "6993m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -211,6 +222,7 @@ const mountains = {
       "properties": {
         "title": "Mardi himal",
         "address": "",
+        "redeem": "33",
         "description": "5587m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -229,6 +241,7 @@ const mountains = {
       "properties": {
         "title": "Kala Patthar",
         "address": "",
+        "redeem": "50",
         "description": "5643m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -248,6 +261,7 @@ const mountains = {
         "title": "Yala Peak",
         "address": "",
         "description": "5700m",
+        "redeem": "50",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain"
