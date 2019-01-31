@@ -46,6 +46,9 @@ Website made for Hackthon at IT Meet v8.0 organized by Kathmandu University
 - All webpages inside **[locationsHTML](map/locationsHTML)** use **[map.css](map/map.css)** and **[map.js](map/map.js)**.
 - GeoJSON files inside **[locations](map/locations)** contains the information about places plotted on the map of each pages.
 
+## Sites used to collect data
++ https://www.tripadvisor.com/Restaurants-g293889-Nepal.html
+
 ## Authors
 [Ojesh Manandhar](https://github.com/OjeshManandhar) - Back-end, Front-end
 
