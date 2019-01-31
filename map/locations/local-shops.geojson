@@ -1,0 +1,131 @@
+const localShops = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.35,
+                    27.67
+                ]
+            },
+            "properties": {
+                "title": "NPP Burger House",
+                "address": "Mangal Bazzar, Patan",
+                "phonenumber": "",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.32,
+                    27.67
+                ]
+            },
+            "properties": {
+                "title": "Yala Maya Kendra Cafe",
+                "address": "Shaja Road, Patan",
+                "phonenumber": "01-5522113",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.30,
+                    27.71
+                ]
+            },
+            "properties": {
+                "title": "Fusion Himalaya Resturent",
+                "address": "Thamel, Kathmandu",
+                "phonenumber": "",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.35,
+                    27.67
+                ]
+            },
+            "properties": {
+                "title": "",
+                "address": "",
+                "phonenumber": "",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.35,
+                    27.67
+                ]
+            },
+            "properties": {
+                "title": "",
+                "address": "",
+                "phonenumber": "",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.35,
+                    27.67
+                ]
+            },
+            "properties": {
+                "title": "",
+                "address": "",
+                "phonenumber": "",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.35,
+                    27.67
+                ]
+            },
+            "properties": {
+                "title": "",
+                "address": "",
+                "phonenumber": "",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+    ]
+}
