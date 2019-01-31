@@ -60,13 +60,13 @@ function showInformation(currentFeature) {
     detail.classList = 'detail col-sm-12 col-md-6 col-lg-8';
 
     var info = '<h3>' + prop.title + '</h3>';       //Title
-    info += '<p> <b>Address:</b> ' + prop.address + '</p>';         //Address
     if (prop.hasOwnProperty('redeem')) {
         info += '<p> <b>Redeem Points:</b> ' + prop.redeem + ' points</p>';         //Reedem
     }
     else if (prop.hasOwnProperty('rating')) {
         info += '<p> <b>Ratings:</b> ' + prop.rating + ' stars</p>';         //Ratings
     }
+    info += '<p> <b>Address:</b> ' + prop.address + '</p>';         //Address
 
     for (var key in prop) {
         if (prop.hasOwnProperty(key)) {
