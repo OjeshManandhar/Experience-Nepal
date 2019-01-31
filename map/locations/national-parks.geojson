@@ -12,6 +12,7 @@ const nationalParks = {
       },
       "properties": {
         "title": "Chitwan National Park",
+        "redeem": "45",
         "area": "360 sq mi",
         "address": "Nawalpur, Parsa, Chitwan and Makwanpur",
         "state": "3",
@@ -31,6 +32,7 @@ const nationalParks = {
       },
       "properties": {
         "title": "Sagarmatha National Park",
+        "redeem": "50",
         "area": "443 sq mi",
         "address": "Solukhumbu",
         "state": "3",
@@ -50,6 +52,7 @@ const nationalParks = {
       },
       "properties": {
         "title": "Langtang National Park",
+        "redeem": "49",
         "area": "660 sq mi",
         "address": "Nuwakot, Rasuwa and Sindhulpalchok",
         "state": "3",
@@ -70,6 +73,7 @@ const nationalParks = {
       "properties": {
         "title": "Rara National Park",
         "area": "41 sq mi",
+        "redeem": "45",
         "address": "Mugu and Jumla",
         "state": "6",
         "marker-color": "#fc4353",
@@ -89,6 +93,7 @@ const nationalParks = {
       "properties": {
         "title": "Khaptad National Park",
         "area": "87 sq mi",
+        "redeem": "36",
         "address": "Bajhang, Bajura, Achham and Doti",
         "state": "7",
         "marker-color": "#fc4353",
@@ -108,6 +113,7 @@ const nationalParks = {
       "properties": {
         "title": "Shey Phoksundo National Park",
         "area": "1,373 sq mi",
+        "redeem": "37",
         "address": "Palam, Dolpa",
         "state": "6",
         "marker-color": "#fc4353",
@@ -127,6 +133,7 @@ const nationalParks = {
       "properties": {
         "title": "Bardiya National Park",
         "area": "374 sq mi",
+        "redeem": "38",
         "address": "Bardiya",
         "state": "5",
         "marker-color": "#fc4353",
@@ -146,6 +153,7 @@ const nationalParks = {
       "properties": {
         "title": "Makalu Barun National Park",
         "area": "580 sq mi",
+        "redeem": "45",
         "address": "Solukhumbu and Sankhuwasabha",
         "state": "1",
         "marker-color": "#fc4353",
@@ -166,6 +174,7 @@ const nationalParks = {
         "title": "Shivapuri Nagarjun National Park",
         "area": "61 sq mi",
         "address": "Kathmandu",
+        "redeem": "35",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -185,6 +194,7 @@ const nationalParks = {
         "title": "Banke National Park",
         "area": "210 sq mi",
         "address": "Banke, Salyan and Dang",
+        "redeem": "37",
         "state": "5",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -204,6 +214,7 @@ const nationalParks = {
         "title": "Shuklaphanta National Park",
         "area": "118 sq mi",
         "address": "Kanchanpur",
+        "redeem": "47",
         "state": "7",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -224,6 +235,7 @@ const nationalParks = {
         "area": "246 sq mi",
         "address": "Chitwan, Makawanpur, Parsa and Bara",
         "state": "3",
+        "redeem": "49",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "park"
@@ -242,6 +254,7 @@ const nationalParks = {
         "title": "Koshi Tappu Wildlife Reserve",
         "area": "68 sq mi",
         "address": "Sunsari, Saptari and Udayapur",
+        "redeem": "50",
         "state": "1,2",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -260,6 +273,7 @@ const nationalParks = {
       "properties": {
         "title": "Annapurna Conservation Area",
         "area": "2,946 sq mi",
+        "redeem": "43",
         "address": "Manang, Mustang, Kaski, Myagdi, and Lamjung",
         "state": "4",
         "marker-color": "#fc4353",
@@ -280,6 +294,7 @@ const nationalParks = {
         "title": "Kanchenjunga Conservation Area",
         "area": "786 sq mi",
         "address": "Taplejung",
+        "redeem": "50",
         "state": "1",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -297,6 +312,7 @@ const nationalParks = {
       },
       "properties": {
         "title": "Manaslu Conservation Area",
+        "redeem": "45",
         "area": "642 sq mi",
         "address": "Gorkha",
         "state": "4",
@@ -316,6 +332,7 @@ const nationalParks = {
       },
       "properties": {
         "title": "Blackbuck Conservation Area",
+        "redeem": "40",
         "area": "6.16 sq mi",
         "address": "Bardiya",
         "state": "5",
@@ -335,6 +352,7 @@ const nationalParks = {
       },
       "properties": {
         "title": "Api Nampa Conservation Area",
+        "redeem": "39",
         "area": "735 sq mi",
         "address": "Darchula",
         "state": "7",
@@ -356,6 +374,7 @@ const nationalParks = {
         "title": "Gaurishankar Conservation Area",
         "area": "841 sq mi",
         "address": "Ramechhap, Dolakha and Sindhupalchok",
+        "redeem": "43",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -375,6 +394,7 @@ const nationalParks = {
         "title": "Dhorpatan Hunting Reserve",
         "area": "512 sq mi",
         "address": "Rukum, Myagdi and Baglung",
+        "redeem": "45",
         "state": "4,5",
         "marker-color": "#fc4353",
         "marker-size": "large",
