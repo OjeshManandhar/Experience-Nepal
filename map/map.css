@@ -211,3 +211,16 @@ a:hover {
 .information img {
     width: 100%;
 }
+
+.detail {
+    font-size: 1.2rem;
+}
+
+.detail h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.detail b {
+    text-transform: capitalize;
+}

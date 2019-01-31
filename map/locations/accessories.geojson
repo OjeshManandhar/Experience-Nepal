@@ -16,7 +16,7 @@ const accessories = {
         "code": "KTM",
         "elevation": "1,338 m",
         "address": "Kathmandu",
-        "phonenumbernumber": "01-4113033",
+        "phonenumber": "01-4113033",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"

@@ -19,6 +19,94 @@ function createPopUp(currentFeature) {
         .addTo(map);
 }
 
+function showInformation(currentFeature) {
+    var info = document.getElementById('information');
+    var prop = currentFeature.properties;
+
+    //Removing the previous element
+    while (info.firstChild) {
+        info.removeChild(info.firstChild);
+    }
+
+    //Creating container class
+    var container = info.appendChild(document.createElement('div'));
+    container.classList = 'contaier-fluid p-2';
+
+    //Creating row class
+    var row = container.appendChild(document.createElement('div'));
+    row.classList = 'row p-2';
+
+    //Creating image-container class
+    var image = row.appendChild(document.createElement('div'));
+    image.classList = 'image col-xs-12 col-sm-10 col-md-6 col-lg-4 text-center';
+
+    //Creating img tag
+    var img = image.appendChild(document.createElement('img'));
+    img.className = 'img-fluid';
+    img.src = imageLocation;
+
+    //Creating detail-container class
+    var detail = row.appendChild(document.createElement('div'));
+    detail.id = 'detail';
+    detail.classList = 'detail col-sm-12 col-md-6 col-lg-8';
+
+    var info = '<h3>' + prop.title + '</h3>';       //Title
+    info += '<p> <b>Address:</b> ' + prop.address + '</p>';         //Address
+    if (prop.hasOwnProperty('redeem')) {
+        info += '<h4>Redeem Points: </h4><h5>' + prop.redeem + '</h5>';         //Reedem
+    }
+
+    for (var key in prop) {
+        if (prop.hasOwnProperty(key)) {
+            if (key === 'marker-color') {
+                break;
+            }
+
+            console.log(key, ' => ', prop[key]);
+            
+            if (key === 'title' || key === 'redeem' || key === 'address' || key === 'description') {
+                continue;
+            }
+            
+            if (key === 'phonenumber') {
+                info += '<p><b>Phone Number : </b>' + prop[key] + '</p>';
+            }
+            else {
+                info += '<p><b>' + key + ': </b>' + prop[key] + '</p>';
+            }
+        }
+    }
+
+    if (prop.hasOwnProperty('description')) {
+        info += '<p><b>Description:</b> ' + prop.description + '</p>';         //Description
+    }
+
+    /*
+    //Adding information in detail
+    var info = '<h3>' + prop.title + '</h3>';       //Title
+
+    if (prop.reedem) {
+        info += '<h5>Redeem Points: </h5><h6>' + prop.reedem + '</h6>';         //reedem Points
+    }
+
+    info += '<p> <b>Address:</b> ' + prop.address + '</p><br>';         //Address
+    
+    if (prop.state) {
+        info += '<p> <b>State: </b> '+ prop.state + '</p><br>';        //State
+    }
+    
+    if (prop.phonenumber) {
+        info += '<p> <b>Phone-number: </b> '+ prop.phonenumber + '</p><br>';        //Phone number
+    }
+    
+    if (prop.description) {
+        info += '<p>'+ prop.description + '</p><br>';        //Description
+    }
+    */
+
+    detail.innerHTML = info;
+}
+
 function buildLocationList(data) {
     for (i = 0; i < data.features.length; i++) {
         var currentFeature = data.features[i];
@@ -42,6 +130,7 @@ function buildLocationList(data) {
             var clickedListing = data.features[this.dataPosition];
             flyToStore(clickedListing);
             createPopUp(clickedListing);
+            showInformation(clickedListing);
             var activeItem = document.getElementsByClassName('active');
 
             if (activeItem[0]) {
@@ -110,7 +199,9 @@ map.on('click', function(e) {
         flyToStore(clickedPoint);
         // 2. Close all other popups and display popup for clicked store
         createPopUp(clickedPoint);
-        // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+        // 3. Show detail of the clicked place below the map
+        showInformation(clickedPoint);
+        // 4. Highlight listing in sidebar (and remove highlight for all other listings)
         var activeItem = document.getElementsByClassName('active');
         if (activeItem[0]) {
             activeItem[0].classList.remove('active');
