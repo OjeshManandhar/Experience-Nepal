@@ -453,7 +453,7 @@ const accessories = {
       },
       "properties": {
         "title": "Bitcoin Nepal",
-        "description": "Kathmandu",
+        "address": "Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "bank"
@@ -470,7 +470,7 @@ const accessories = {
       },
       "properties": {
         "title": "New Nepal Money Exchange",
-        "description": "Lazimpat Road, Kathmandu",
+        "address": "Lazimpat Road, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "bank"
@@ -487,7 +487,7 @@ const accessories = {
       },
       "properties": {
         "title": "Nepal Rastra Bank",
-        "description": "Thapathali, Kathmandu",
+        "address": "Thapathali, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "bank"
@@ -504,7 +504,7 @@ const accessories = {
       },
       "properties": {
         "title": "Nepal Bank",
-        "description": "Araniko Highway, Madhyaour Thimi",
+        "address": "Araniko Highway, Madhyaour Thimi",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "bank"
@@ -521,7 +521,7 @@ const accessories = {
       },
       "properties": {
         "title": "Standard Chartered Bank",
-        "description": "Lazimpat, Kathmandu",
+        "address": "Lazimpat, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "bank"
@@ -538,7 +538,7 @@ const accessories = {
       },
       "properties": {
         "title": "Bhaktpur Money Exchange",
-        "description": "Bakhtapur",
+        "address": "Bakhtapur",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "bank"
@@ -555,7 +555,7 @@ const accessories = {
       },
       "properties": {
         "title": "Nepal Police Headquarters",
-        "description": "Sama Marg, Kathmandu ",
+        "address": "Sama Marg, Kathmandu ",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "police"
@@ -572,7 +572,7 @@ const accessories = {
       },
       "properties": {
         "title": "Koteshwor Police Station",
-        "description": "Chautarphi Marg, Kathmandu",
+        "address": "Chautarphi Marg, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "police"
@@ -589,7 +589,7 @@ const accessories = {
       },
       "properties": {
         "title": "Kamalpokhari Police Station",
-        "description": "Kamal Pokhari St, Kathmandu",
+        "address": "Kamal Pokhari St, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "police"
@@ -606,7 +606,7 @@ const accessories = {
       },
       "properties": {
         "title": "Kalimati Police Station",
-        "description": "Kathmandu",
+        "address": "Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "police"
@@ -623,7 +623,7 @@ const accessories = {
       },
       "properties": {
         "title": "Tikabhairav Police Station",
-        "description": "Karyabinayak",
+        "address": "Karyabinayak",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "police"
