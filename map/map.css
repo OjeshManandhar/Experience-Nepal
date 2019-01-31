@@ -203,6 +203,11 @@ a:hover {
 /*==========================================================*/
 
 /*Information section*/
+
 .image {
     margin: 0px auto;
+}
+
+.information img {
+    width: 100%;
 }
