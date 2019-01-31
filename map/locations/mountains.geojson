@@ -16,7 +16,7 @@ const mountains = {
         "description": "8848 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"          
+        "marker-symbol": "mountain"          
       }
     },
     {
@@ -34,7 +34,7 @@ const mountains = {
         "description": "8156 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing" 
+        "marker-symbol": "mountain" 
       }
     },
     {
@@ -52,7 +52,7 @@ const mountains = {
         "description": "8586m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -70,7 +70,7 @@ const mountains = {
         "description": "8481m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -88,7 +88,7 @@ const mountains = {
         "description": "8201m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -106,7 +106,7 @@ const mountains = {
         "description": "8516m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -124,7 +124,7 @@ const mountains = {
         "description": "8091 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -142,7 +142,7 @@ const mountains = {
         "description": "6993 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -160,7 +160,7 @@ const mountains = {
         "description": "7422m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -178,7 +178,7 @@ const mountains = {
         "description": "8013m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -196,7 +196,7 @@ const mountains = {
         "description": "6993m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -214,7 +214,7 @@ const mountains = {
         "description": "5587m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -232,7 +232,7 @@ const mountains = {
         "description": "5643m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     },
     {
@@ -250,7 +250,7 @@ const mountains = {
         "description": "5700m",
         "marker-color": "#fc4353",
         "marker-size": "large",
-        "marker-symbol": "skiing"
+        "marker-symbol": "mountain"
       }
     }
   ]
