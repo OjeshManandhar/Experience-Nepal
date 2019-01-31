@@ -13,10 +13,11 @@ const accessories = {
       "properties": {
         "title": "Tribhuvan International Airport",
         "description": "Ring Rd, Kathmandu",
+        "address": "Ring Rd, Kathmandu",
         "code": "KTM",
         "elevation": "1,338 m",
         "serves": "Kathmandu",
-        "phone": "01-4113033",
+        "phonenumbernumber": "01-4113033",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -34,10 +35,11 @@ const accessories = {
       "properties": {
         "title": "Tenzinghillary Airport",
         "description": "Lukla - Everest Base Camp Trekking Route 30, Chaunrikharka",
+        "address": "Chaunrikharka",
         "code": "LUA",
         "elevation": "2,860m",
         "serves": "Lukla",
-        "phone": "981-5946280",
+        "phonenumber": "981-5946280",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -58,7 +60,7 @@ const accessories = {
         "code": "PKR",
         "elevation": "827 m",
         "serves": "Pokhara",
-        "phone": "061-463038",
+        "phonenumber": "061-463038",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -79,7 +81,7 @@ const accessories = {
         "code": "BWA",
         "elevation": "109m",
         "serves": "Siddharthanagar",
-        "phone": "071-526387",
+        "phonenumber": "071-526387",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -100,7 +102,7 @@ const accessories = {
         "code": "BHR",
         "elevation": "183m",
         "serves": "Bharatpur",
-        "phone": "056-524975",
+        "phonenumber": "056-524975",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -121,7 +123,7 @@ const accessories = {
         "code": "BIR",
         "elevation": "236m",
         "serves": "Biratnagar",
-        "phone": "021-462060",
+        "phonenumber": "021-462060",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -142,7 +144,7 @@ const accessories = {
         "code": "PPL",
         "elevation": "N/A",
         "serves": "Solududhkunda",
-        "phone": "038-520153",
+        "phonenumber": "038-520153",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -163,7 +165,7 @@ const accessories = {
         "code": "JOM",
         "elevation": "2,682m",
         "serves": "Jomsom",
-        "phone": "N/A",
+        "phonenumber": "N/A",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -184,7 +186,7 @@ const accessories = {
         "code": "JKR",
         "elevation": "256m",
         "serves": "Kathmandu",
-        "phone": "N/A",
+        "phonenumber": "N/A",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -205,7 +207,7 @@ const accessories = {
         "code": "KEP",
         "elevation": "540m",
         "serves": "Nepalgunj",
-        "phone": "081-565210",
+        "phonenumber": "081-565210",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -226,7 +228,7 @@ const accessories = {
         "code": "IMK",
         "elevation": "2,818m",
         "serves": "Simikot",
-        "phone": "981-5946280",
+        "phonenumber": "981-5946280",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -247,7 +249,7 @@ const accessories = {
         "code": "SIF",
         "elevation": "137 m",
         "serves": "N/A",
-        "phone": "053-520210",
+        "phonenumber": "053-520210",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -268,7 +270,7 @@ const accessories = {
         "code": "DOP",
         "elevation": "N/A",
         "serves": "Dolpa District, Thuli Bheri",
-        "phone": "N/A",
+        "phonenumber": "N/A",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -289,7 +291,7 @@ const accessories = {
         "code": "BDP",
         "elevation": "91m",
         "serves": "Bhadrapur",
-        "phone": "023-455432",
+        "phonenumber": "023-455432",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -310,7 +312,7 @@ const accessories = {
         "code": "DHI",
         "elevation": "210m",
         "serves": "N/A",
-        "phone": "091-575219",
+        "phonenumber": "091-575219",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -331,7 +333,7 @@ const accessories = {
         "code": "TMI",
         "elevation": "518m",
         "serves": "Tumlingtar",
-        "phone": "029-575207",
+        "phonenumber": "029-575207",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -352,7 +354,7 @@ const accessories = {
         "code": "SYH",
         "elevation": "N/A",
         "serves": "Namche Bazaar",
-        "phone": "984-1633182",
+        "phonenumber": "984-1633182",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -373,7 +375,7 @@ const accessories = {
         "code": "NGX",
         "elevation": "3,353m",
         "serves": "Manang",
-        "phone": "N/A",
+        "phonenumber": "N/A",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -394,7 +396,7 @@ const accessories = {
         "code": "DMP",
         "elevation": "640m",
         "serves": "Tulsipur",
-        "phone": "082-520369",
+        "phonenumber": "082-520369",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -415,7 +417,7 @@ const accessories = {
         "code": "JUM",
         "elevation": "N/A",
         "serves": "Jumla",
-        "phone": "985-8320135",
+        "phonenumber": "985-8320135",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"
@@ -436,7 +438,7 @@ const accessories = {
         "code": "MEY",
         "elevation": "N/A",
         "serves": "Meghauli",
-        "phone": "N/A",
+        "phonenumber": "N/A",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "airport"

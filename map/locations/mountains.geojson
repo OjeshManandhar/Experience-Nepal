@@ -12,6 +12,7 @@ const mountains = {
       },
       "properties": {
         "title": "Mt. Everest",
+        "address": "Sagarmatha",
         "description": "8848 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -29,6 +30,7 @@ const mountains = {
       },
       "properties": {
         "title": "Manaslu",
+        "address": "",
         "description": "8156 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -46,6 +48,7 @@ const mountains = {
       },
       "properties": {
         "title": "Kanchenjunga",
+        "address": "",
         "description": "8586m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -63,6 +66,7 @@ const mountains = {
       },
       "properties": {
         "title": "Makalu",
+        "address": "",
         "description": "8481m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -79,7 +83,8 @@ const mountains = {
         ]
       },
       "properties": {
-      "title": "Cho Oyu",
+        "title": "Cho Oyu",
+        "address": "",
         "description": "8201m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -97,6 +102,7 @@ const mountains = {
       },
       "properties": {
         "title": "Lhotse",
+        "address": "",
         "description": "8516m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -114,6 +120,7 @@ const mountains = {
       },
       "properties": {
         "title": "Annapurna",
+        "address": "",
         "description": "8091 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -131,6 +138,7 @@ const mountains = {
       },
       "properties": {
         "title": "Machapuchare",
+        "address": "",
         "description": "6993 m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -148,6 +156,7 @@ const mountains = {
       },
       "properties": {
         "title": "Ganesh Hima",
+        "address": "",
         "description": "7422m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -165,6 +174,7 @@ const mountains = {
       },
       "properties": {
         "title": "Shishapangma",
+        "address": "",
         "description": "8013m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -182,6 +192,7 @@ const mountains = {
       },
       "properties": {
         "title": "Machapuchare",
+        "address": "",
         "description": "6993m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -199,6 +210,7 @@ const mountains = {
       },
       "properties": {
         "title": "Mardi himal",
+        "address": "",
         "description": "5587m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -216,6 +228,7 @@ const mountains = {
       },
       "properties": {
         "title": "Kala Patthar",
+        "address": "",
         "description": "5643m",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -233,6 +246,7 @@ const mountains = {
       },
       "properties": {
         "title": "Yala Peak",
+        "address": "",
         "description": "5700m",
         "marker-color": "#fc4353",
         "marker-size": "large",
