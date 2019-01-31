@@ -6,8 +6,8 @@ const localShops = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    85.35,
-                    27.67
+                    85.325889,
+                    27.673921
                 ]
             },
             "properties": {
@@ -24,8 +24,8 @@ const localShops = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    85.32,
-                    27.67
+                    85.320742,
+                    27.678706
                 ]
             },
             "properties": {
@@ -42,12 +42,12 @@ const localShops = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    85.30,
-                    27.71
+                    85.308964,
+                    27.716027
                 ]
             },
             "properties": {
-                "title": "Fusion Himalaya Resturent",
+                "title": "Fusion Himalaya Resturant",
                 "address": "Thamel, Kathmandu",
                 "phonenumber": "",
                 "marker-color": "#fc4353",
@@ -60,14 +60,14 @@ const localShops = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    85.35,
-                    27.67
+                    83.958364,
+                    28.211476
                 ]
             },
             "properties": {
-                "title": "",
-                "address": "",
-                "phonenumber": "",
+                "title": "Fresh Elements Restaurant",
+                "address": "Middle Path St, Pokhara",
+                "phonenumber": "061-465744",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "cafe"
@@ -78,14 +78,14 @@ const localShops = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    85.35,
-                    27.67
+                    84.494350,
+                    27.581833
                 ]
             },
             "properties": {
-                "title": "",
-                "address": "",
-                "phonenumber": "",
+                "title": "Friends Cafe",
+                "address": "Ratnanagar, Sauraha",
+                "phonenumber": "056-580403",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "cafe"
@@ -96,14 +96,14 @@ const localShops = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    85.35,
-                    27.67
+                    86.710482,
+                    27.804415
                 ]
             },
             "properties": {
-                "title": "",
-                "address": "",
-                "phonenumber": "",
+                "title": "Namche Bakery Cafe",
+                "address": "Namche Bazzar, Sagarmatha",
+                "phonenumber": "038-540119",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "cafe"
@@ -114,18 +114,126 @@ const localShops = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    85.35,
-                    27.67
+                    83.284608,
+                    27.470633
                 ]
             },
             "properties": {
-                "title": "",
-                "address": "",
-                "phonenumber": "",
+                "title": "G.G. Cafe & Restaurant",
+                "address": "Lumbini Sanskritik 32900",
+                "phonenumber": "071-580376",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "cafe"
             }
         },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.029881,
+                    27.428020
+                ]
+            },
+            "properties": {
+                "title": "Tulachan Thakali",
+                "address": "Bypass Marg - 1, Hetauda 44107",
+                "phonenumber": "057-521586",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.394586,
+                    27.953437
+                ]
+            },
+            "properties": {
+                "title": "Kakshya Cafe",
+                "address": "Dumre-Bandipur Rd, Bandipur 33904",
+                "phonenumber": "982-3704024",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.552930,
+                    27.620777
+                ]
+            },
+            "properties": {
+                "title": "Rukh Cafe, espresso",
+                "address": "B.P.Highway, Dhulikhel 45200",
+                "phonenumber": "011-490751",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.552930,
+                    27.620777
+                ]
+            },
+            "properties": {
+                "title": "Rongo's Momo Hut",
+                "address": "Devkota Chowk, Biratnagar",
+                "phonenumber": "021-525308",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.435217,
+                    27.685383
+                ]
+            },
+            "properties": {
+                "title": "Jacob's Cafe",
+                "address": "Bharatpur 44200",
+                "phonenumber": "056-531197",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.9662972,
+                    27.810787
+                ]
+            },
+            "properties": {
+                "title": "Hamlet Restaurant",
+                "address": "Prithvi Hwy, Baireni 45100",
+                "phonenumber": "010-404090",
+                "marker-color": "#fc4353",
+                "marker-size": "large",
+                "marker-symbol": "cafe"
+            }
+        }
     ]
 }
