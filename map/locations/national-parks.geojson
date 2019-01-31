@@ -1,4 +1,4 @@
-const national = {
+const nationalParks = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -239,9 +239,9 @@ const national = {
         ]
       },
       "properties": {
-        "name": "Koshi Tappu Wildlife Reserve",
+        "title": "Koshi Tappu Wildlife Reserve",
         "area": "68 sq mi",
-        "district": "Sunsari, Saptari and Udayapur",
+        "address": "Sunsari, Saptari and Udayapur",
         "state": "1,2",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -258,9 +258,9 @@ const national = {
         ]
       },
       "properties": {
-        "name": "Annapurna Conservation Area",
+        "title": "Annapurna Conservation Area",
         "area": "2,946 sq mi",
-        "district": "Manang, Mustang, Kaski, Myagdi, and Lamjung",
+        "address": "Manang, Mustang, Kaski, Myagdi, and Lamjung",
         "state": "4",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -277,9 +277,9 @@ const national = {
         ]
       },
       "properties": {
-        "name": "Kanchenjunga Conservation Area",
+        "title": "Kanchenjunga Conservation Area",
         "area": "786 sq mi",
-        "district": "Taplejung",
+        "address": "Taplejung",
         "state": "1",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -296,9 +296,9 @@ const national = {
         ]
       },
       "properties": {
-        "name": "Manaslu Conservation Area",
+        "title": "Manaslu Conservation Area",
         "area": "642 sq mi",
-        "district": "Gorkha",
+        "address": "Gorkha",
         "state": "4",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -310,14 +310,14 @@ const national = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          81.20,
-          28.15
+          81.35,
+          28.40
         ]
       },
       "properties": {
-        "name": "Blackbuck Conservation Area",
+        "title": "Blackbuck Conservation Area",
         "area": "6.16 sq mi",
-        "district": "Bardiya",
+        "address": "Bardiya",
         "state": "5",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -334,9 +334,9 @@ const national = {
         ]
       },
       "properties": {
-        "name": "Api Nampa Conservation Area",
+        "title": "Api Nampa Conservation Area",
         "area": "735 sq mi",
-        "district": "Darchula",
+        "address": "Darchula",
         "state": "7",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -353,9 +353,9 @@ const national = {
         ]
       },
       "properties": {
-        "name": "Gaurishankar Conservation Area",
+        "title": "Gaurishankar Conservation Area",
         "area": "841 sq mi",
-        "district": "Ramechhap, Dolakha and Sindhupalchok",
+        "address": "Ramechhap, Dolakha and Sindhupalchok",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -372,9 +372,9 @@ const national = {
         ]
       },
       "properties": {
-        "name": "Dhorpatan Hunting Reserve",
+        "title": "Dhorpatan Hunting Reserve",
         "area": "512 sq mi",
-        "district": "Rukum, Myagdi and Baglung",
+        "address": "Rukum, Myagdi and Baglung",
         "state": "4,5",
         "marker-color": "#fc4353",
         "marker-size": "large",
