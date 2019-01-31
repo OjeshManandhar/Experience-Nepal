@@ -12,6 +12,7 @@ const pilgrimage = {
       },
       "properties": {
         "title": "Swayambhunath",
+        "redeem": "40",
         "address": "Kathmandu, Bagmati",
         "state": "3",
         "marker-color": "#fc4353",
@@ -30,6 +31,7 @@ const pilgrimage = {
       },
       "properties": {
         "title": "Boudhha",
+        "redeem": "35",
         "address": "Kathmandu, Bagmati",
         "state": "3",
         "marker-color": "#fc4353",
@@ -48,6 +50,7 @@ const pilgrimage = {
       },
       "properties": {
         "title": "Lumbini",
+        "redeem": "50",
         "address": "Rupandehi, Lumbini",
         "state": "5",
         "marker-color": "#fc4353",
@@ -65,6 +68,7 @@ const pilgrimage = {
         ]
       },
       "properties": {
+        "redeem": "42",
         "title": "Manakamana",
         "address": "Manakamana, Gorkha",
         "state": "4",
@@ -85,6 +89,7 @@ const pilgrimage = {
       "properties": {
         "title": "Muktinath",
         "address": "Ranipauwa",
+        "redeem": "39",
         "state": "4",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -103,6 +108,7 @@ const pilgrimage = {
       "properties": {
         "title": "Pashupati",
         "address": "Kathmandu, Bagmati",
+        "redeem": "43",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -120,6 +126,7 @@ const pilgrimage = {
       },
       "properties": {
         "title": "Sagarmatha",
+        "redeem": "47",
         "address": "Khumjung, Sagarmatha",
         "state": "1",
         "marker-color": "#fc4353",
@@ -139,6 +146,7 @@ const pilgrimage = {
       "properties": {
         "title": "Kumari Ghar",
         "address": "Kathmandu, Bagmati",
+        "redeem": "45",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -157,6 +165,7 @@ const pilgrimage = {
       "properties": {
         "title": "Bindyabasini",
         "address": "Birgunj, Narayani",
+        "redeem": "50",
         "state": "2",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -175,6 +184,7 @@ const pilgrimage = {
       "properties": {
         "title": "Budanilkantha",
         "address": "Kathmandu, Bagmati",
+        "redeem": "45",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -192,6 +202,7 @@ const pilgrimage = {
       },
       "properties": {
         "title": "Janaki Mandir",
+        "redeem": "50",
         "address": "Janakpur",
         "state": "2",
         "marker-color": "#fc4353",
