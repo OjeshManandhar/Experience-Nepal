@@ -15,7 +15,7 @@ function createPopUp(currentFeature) {
     var popup = new mapboxgl.Popup({ closeOnClick: false })
         .setLngLat(currentFeature.geometry.coordinates)
         .setHTML('<h3>' + currentFeature.properties.title + '</h3>' +
-        '<h4>' + currentFeature.properties.description + '</h4>')
+        '<h4>' + currentFeature.properties.address + '</h4>')
         .addTo(map);
 }
 
@@ -36,7 +36,7 @@ function buildLocationList(data) {
         link.innerHTML = prop.title;
 
         var details = listing.appendChild(document.createElement('div'));
-        details.innerHTML = prop.description;
+        details.innerHTML = prop.address;
         
         link.addEventListener('click', function(e){
             var clickedListing = data.features[this.dataPosition];

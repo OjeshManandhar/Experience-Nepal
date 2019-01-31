@@ -12,7 +12,7 @@ const museums = {
       },
       "properties": {
         "title": "Patan Museum",
-        "description": "Patan Durbar Square, Lalitpur",
+        "address": "Patan Durbar Square, Lalitpur",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -29,7 +29,7 @@ const museums = {
       },
       "properties": {
         "title": "International Mountain Museum",
-        "description": "Pardi Bazaar, Pokhara",
+        "address": "Pardi Bazaar, Pokhara",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -46,7 +46,7 @@ const museums = {
       },
       "properties": {
         "title": "Natural History Museum of Nepal",
-        "description": "Swoyambhu Circle Road, Kathmandu",
+        "address": "Swoyambhu Circle Road, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -63,7 +63,7 @@ const museums = {
       },
       "properties": {
         "title": "The Taragaon Museum",
-        "description": "Boudhanath Sadak, Kathmandu",
+        "address": "Boudhanath Sadak, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -80,7 +80,7 @@ const museums = {
       },
       "properties": {
         "title": "Aviation Museum",
-        "description": "Sinamangal, Kathmandu",
+        "address": "Sinamangal, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -97,7 +97,7 @@ const museums = {
       },
       "properties": {
         "title": "Kapilvastu Museum",
-        "description": "Kapilvastu, Lumbini",
+        "address": "Kapilvastu, Lumbini",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -114,7 +114,7 @@ const museums = {
       },
       "properties": {
         "title": "Nepal Children's Art Museum",
-        "description": "Hattisar Sadak Buddha Air Building, Kathmandu",
+        "address": "Hattisar Sadak Buddha Air Building, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -131,7 +131,7 @@ const museums = {
       },
       "properties": {
         "title": "Buddha Nepal Art Gallery",
-        "description": "Chaksibari Marg, Kathmandu",
+        "address": "Chaksibari Marg, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -148,7 +148,7 @@ const museums = {
       },
       "properties": {
         "title": "Everest Science Center Nepal",
-        "description": "Sitagunj, Sunsari, Nepal",
+        "address": "Sitagunj, Sunsari, Nepal",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -165,7 +165,7 @@ const museums = {
       },
       "properties": {
         "title": "Lumbini Museum",
-        "description": "Lumbini Sanskritik, Lumbini",
+        "address": "Lumbini Sanskritik, Lumbini",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -182,7 +182,7 @@ const museums = {
       },
       "properties": {
         "title": "Tharu Cultural Museum",
-        "description": "Ratnanagar, Kathmandu",
+        "address": "Ratnanagar, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -199,7 +199,7 @@ const museums = {
       },
       "properties": {
         "title": "Gorkha Museum",
-        "description": "Rani Pokhari Maarga, Gorkha",
+        "address": "Rani Pokhari Maarga, Gorkha",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -216,7 +216,7 @@ const museums = {
       },
       "properties": {
         "title": "Buddhist Art Gallery",
-        "description": "Baudha Road, Kathmandu",
+        "address": "Baudha Road, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -233,7 +233,7 @@ const museums = {
       },
       "properties": {
         "title": "Wood Carving Museum",
-        "description": "Araniko Hwy, Bhaktapur",
+        "address": "Araniko Hwy, Bhaktapur",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -250,7 +250,7 @@ const museums = {
       },
       "properties": {
         "title": "Annapurna Museum",
-        "description": "Nadipur Rd, Pokhara",
+        "address": "Nadipur Rd, Pokhara",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -267,7 +267,7 @@ const museums = {
       },
       "properties": {
         "title": "Bhaktapur Art Museum",
-        "description": "Bhaktapur",
+        "address": "Bhaktapur",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -284,7 +284,7 @@ const museums = {
       },
       "properties": {
         "title": "BP Koirala Memorial Planetorium Observatory and Science Museum",
-        "description": "Kirtipur Rd, Kirtipur",
+        "address": "Kirtipur Rd, Kirtipur",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -301,7 +301,7 @@ const museums = {
       },
       "properties": {
         "title": "Swayambhu Buddhist Museum",
-        "description": "Swayambhu, Kathmandu",
+        "address": "Swayambhu, Kathmandu",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"
@@ -318,7 +318,7 @@ const museums = {
       },
       "properties": {
         "title": "Park Gallery",
-        "description": "Pulchowk, Lalitpur",
+        "address": "Pulchowk, Lalitpur",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "museum"

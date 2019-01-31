@@ -12,7 +12,7 @@ const religious = {
       },
       "properties": {
         "title": "Swayambhunath",
-        "description": "",
+        "address": "",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -30,7 +30,7 @@ const religious = {
       },
       "properties": {
         "title": "Boudhha",
-        "description": "",
+        "address": "",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -48,7 +48,7 @@ const religious = {
       },
       "properties": {
         "title": "Lumbini",
-        "description": "",
+        "address": "",
         "state": "5",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -66,7 +66,7 @@ const religious = {
       },
       "properties": {
         "title": "Manakamana",
-        "description": "",
+        "address": "",
         "state": "4",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -84,7 +84,7 @@ const religious = {
       },
       "properties": {
         "title": "Muktinath",
-        "description": "",
+        "address": "",
         "state": "4",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -102,7 +102,7 @@ const religious = {
       },
       "properties": {
         "title": "Pashupati",
-        "description": "",
+        "address": "",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -120,7 +120,7 @@ const religious = {
       },
       "properties": {
         "title": "Sagarmatha",
-        "description": "",
+        "address": "",
         "state": "1",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -138,7 +138,7 @@ const religious = {
       },
       "properties": {
         "title": "Kumari Ghar",
-        "description": "",
+        "address": "",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -156,7 +156,7 @@ const religious = {
       },
       "properties": {
         "title": "Bindyabasini",
-        "description": "",
+        "address": "",
         "state": "2",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -174,7 +174,7 @@ const religious = {
       },
       "properties": {
         "title": "Budanilkantha",
-        "description": "",
+        "address": "",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -192,7 +192,7 @@ const religious = {
       },
       "properties": {
         "title": "Janaki Mandir",
-        "description": "",
+        "address": "",
         "state": "2",
         "marker-color": "#fc4353",
         "marker-size": "large",

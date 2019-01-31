@@ -13,7 +13,7 @@ const national = {
       "properties": {
         "title": "Chitwan National Park",
         "area": "360 sq mi",
-        "description": "Nawalpur, Parsa, Chitwan and Makwanpur",
+        "address": "Nawalpur, Parsa, Chitwan and Makwanpur",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -32,7 +32,7 @@ const national = {
       "properties": {
         "title": "Sagarmatha National Park",
         "area": "443 sq mi",
-        "description": "Solukhumbu",
+        "address": "Solukhumbu",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -51,7 +51,7 @@ const national = {
       "properties": {
         "title": "Langtang National Park",
         "area": "660 sq mi",
-        "description": "Nuwakot, Rasuwa and Sindhulpalchok",
+        "address": "Nuwakot, Rasuwa and Sindhulpalchok",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -70,7 +70,7 @@ const national = {
       "properties": {
         "title": "Rara National Park",
         "area": "41 sq mi",
-        "description": "Mugu and Jumla",
+        "address": "Mugu and Jumla",
         "state": "6",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -89,7 +89,7 @@ const national = {
       "properties": {
         "title": "Khaptad National Park",
         "area": "87 sq mi",
-        "description": "Bajhang, Bajura, Achham and Doti",
+        "address": "Bajhang, Bajura, Achham and Doti",
         "state": "7",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -108,7 +108,7 @@ const national = {
       "properties": {
         "title": "Shey Phoksundo National Park",
         "area": "1,373 sq mi",
-        "description": "Palam, Dolpa",
+        "address": "Palam, Dolpa",
         "state": "6",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -127,7 +127,7 @@ const national = {
       "properties": {
         "title": "Bardiya National Park",
         "area": "374 sq mi",
-        "description": "Bardiya",
+        "address": "Bardiya",
         "state": "5",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -146,7 +146,7 @@ const national = {
       "properties": {
         "title": "Makalu Barun National Park",
         "area": "580 sq mi",
-        "description": "Solukhumbu and Sankhuwasabha",
+        "address": "Solukhumbu and Sankhuwasabha",
         "state": "1",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -165,7 +165,7 @@ const national = {
       "properties": {
         "title": "Shivapuri Nagarjun National Park",
         "area": "61 sq mi",
-        "description": "Kathmandu",
+        "address": "Kathmandu",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -184,7 +184,7 @@ const national = {
       "properties": {
         "title": "Banke National Park",
         "area": "210 sq mi",
-        "description": "Banke, Salyan and Dang",
+        "address": "Banke, Salyan and Dang",
         "state": "5",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -203,7 +203,7 @@ const national = {
       "properties": {
         "title": "Shuklaphanta National Park",
         "area": "118 sq mi",
-        "description": "Kanchanpur",
+        "address": "Kanchanpur",
         "state": "7",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -222,7 +222,7 @@ const national = {
       "properties": {
         "title": "Parsa National Park",
         "area": "246 sq mi",
-        "description": "Chitwan, Makawanpur, Parsa and Bara",
+        "address": "Chitwan, Makawanpur, Parsa and Bara",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
