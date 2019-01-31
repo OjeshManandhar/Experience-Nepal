@@ -196,25 +196,6 @@ const mountains = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.9470,
-          28.5044
-        ]
-      },
-      "properties": {
-        "title": "Machapuchare",
-        "address": "",
-        "redeem": "54",
-        "description": "6993m",
-        "marker-color": "#fc4353",
-        "marker-size": "large",
-        "marker-symbol": "mountain"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           83.9374,
           28.4857
         ]
