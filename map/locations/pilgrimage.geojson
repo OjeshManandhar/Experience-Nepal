@@ -1,4 +1,4 @@
-const religious = {
+const pilgrimage = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -12,7 +12,7 @@ const religious = {
       },
       "properties": {
         "title": "Swayambhunath",
-        "address": "",
+        "address": "Kathmandu, Bagmati",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -30,7 +30,7 @@ const religious = {
       },
       "properties": {
         "title": "Boudhha",
-        "address": "",
+        "address": "Kathmandu, Bagmati",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -48,7 +48,7 @@ const religious = {
       },
       "properties": {
         "title": "Lumbini",
-        "address": "",
+        "address": "Rupandehi, Lumbini",
         "state": "5",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -66,7 +66,7 @@ const religious = {
       },
       "properties": {
         "title": "Manakamana",
-        "address": "",
+        "address": "Manakamana, Gorkha",
         "state": "4",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -84,7 +84,7 @@ const religious = {
       },
       "properties": {
         "title": "Muktinath",
-        "address": "",
+        "address": "Ranipauwa",
         "state": "4",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -102,7 +102,7 @@ const religious = {
       },
       "properties": {
         "title": "Pashupati",
-        "address": "",
+        "address": "Kathmandu, Bagmati",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -120,7 +120,7 @@ const religious = {
       },
       "properties": {
         "title": "Sagarmatha",
-        "address": "",
+        "address": "Khumjung, Sagarmatha",
         "state": "1",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -138,7 +138,7 @@ const religious = {
       },
       "properties": {
         "title": "Kumari Ghar",
-        "address": "",
+        "address": "Kathmandu, Bagmati",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -156,7 +156,7 @@ const religious = {
       },
       "properties": {
         "title": "Bindyabasini",
-        "address": "",
+        "address": "Birgunj, Narayani",
         "state": "2",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -174,7 +174,7 @@ const religious = {
       },
       "properties": {
         "title": "Budanilkantha",
-        "address": "",
+        "address": "Kathmandu, Bagmati",
         "state": "3",
         "marker-color": "#fc4353",
         "marker-size": "large",
@@ -192,7 +192,7 @@ const religious = {
       },
       "properties": {
         "title": "Janaki Mandir",
-        "address": "",
+        "address": "Janakpur",
         "state": "2",
         "marker-color": "#fc4353",
         "marker-size": "large",
