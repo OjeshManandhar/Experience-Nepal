@@ -227,6 +227,7 @@ a:hover {
 }
 
 .detail h5 {
+    display: inline;
     font-size: 1.4rem;
 }
 

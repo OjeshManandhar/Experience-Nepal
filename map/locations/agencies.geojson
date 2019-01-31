@@ -13,6 +13,7 @@ const agencies = {
             "properties": {
                 "title": "WhiteWater Nepal Pvt. Ltd.",
                 "address": "Chaksibari Marg, Kathmandu 44600",
+                "rating": "5",
                 "phonenumber": "01-4700899", 
                 "description":"Boat tours, water sports, kayaking, canoeing, rafting & tubing",
                 "marker-color": "#fc4353",
@@ -32,6 +33,7 @@ const agencies = {
             "properties": {
                 "title": "GRG's Adventure Kayaking",
                 "address": "Annapurna Market, Satgumpti, Kathmandu 26414",
+                "rating": "5",
                 "phonenumber": "01-4700928", 
                 "description":"kayaking, canyoning & rafting",
                 "marker-color": "#fc4353",
@@ -51,6 +53,7 @@ const agencies = {
             "properties": {
                 "title": "Rafting Star Pvt.Ltd.",
                 "address": " Bhagawanbahal, Thamel, Kathmandu, 00977",
+                "rating": "5",
                 "phonenumber": "974-1171702", 
                 "description":"kayaking, canyoning & rafting",
                 "marker-color": "#fc4353",
@@ -69,6 +72,7 @@ const agencies = {
             },
             "properties": {
                 "title": "Nepal Rafting & Rock Climbing - Hardcore Nepal Adventures",
+                "rating": "5",
                 "address": "Chaksibari Marg, Kathmandu 44600",
                 "phonenumber": "980-3010011", 
                 "description":"canyoning & Climbing",
@@ -88,6 +92,7 @@ const agencies = {
             },
             "properties": {
                 "title": "Nepal Climbing Adventure Pvt.Ltd.",
+                "rating": "5",
                 "address": "Thamel Bhagawati Marg, Kathmandu 44600",
                 "phonenumber": "01-4445255", 
                 "description":"Mountaineering Expeditions, Peak Climbing, Trekking",
@@ -110,6 +115,7 @@ const agencies = {
                 "address": "Astrek Complex Amrit Marg, Bhagawan Bahal Marg, Kathmandu 44600",
                 "phonenumber": "01-4419265", 
                 "description":"Wall Climbing",
+                "rating": "5",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "star"
@@ -127,7 +133,8 @@ const agencies = {
             "properties": {
                 "title": "Chitwan Jungle Safari",
                 "address": "Thamel Chowk, Kathmandu 44600",
-                "phonenumber": "980-8398868", 
+                "phonenumber": "980-8398868",
+                "rating": "5",
                 "description":"Jungle Safari",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
@@ -148,6 +155,7 @@ const agencies = {
                 "address":"Mandala Street, Kathmandu 44600 (office), Naya Pul,Tatopani (Ward 5, Listikot VDC), Sindhupalchok ",
                 "phonenumber": "01-4700525,01-4701247,01-4440743", 
                 "description":"Bungy Nepal-style!,Canyon Swing,Canyoning,High Ropes,White Water Rafting,Tandem swing",
+                "rating": "5",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "star"
@@ -167,6 +175,7 @@ const agencies = {
                 "address":"Lakeside, Pokhara, Mustang Chowk, Pokhara, Narshing Chowk, Thamel, Kathmandu 44600",
                 "phonenumber": "061-462192,01-4267633,061-463338", 
                 "description":"paragliding, skydiving, free falls, hang gliding, paramotoring",
+                "rating": "5",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "star"
@@ -186,6 +195,7 @@ const agencies = {
                 "address":"Z-Street,Thamel,Kathmandu 44600",
                 "phonenumber": "01-4700190, 01-4701304, 9851089497", 
                 "description":"Eco trek, Medical trek, Yoga trek, Cleaning trek, Nepal community trek",
+                "rating": "5",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "star"
@@ -203,7 +213,8 @@ const agencies = {
             "properties": {
                 "title": "Mountain Delights Treks and Expendition Pvt.Ltd.",
                 "address":"Z-Street,Thamel,Kathmandu 44600",
-                "phonenumber": "01-4700190, 01-4701304, 9851089497", 
+                "phonenumber": "01-4700190, 01-4701304, 9851089497",
+                "rating": "5",
                 "description":"Eco trek, Medical trek, Yoga trek, Cleaning trek, Nepal community trek",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
@@ -223,6 +234,7 @@ const agencies = {
                 "title": "Pokhara Mountain Bike Adventure",
                 "address":"Baidam Lakeside 6 - NEPAL, Baidam Rd, Pokhara 33700",
                 "phonenumber": "980-4134788", 
+                "rating": "5",
                 "description":"Trekking, Mountain Biking ",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
@@ -243,6 +255,7 @@ const agencies = {
                 "address":"Chaksibari Marg, Kathmandu 44600",
                 "phonenumber": "984-1436811", 
                 "description":"Mountain Biking ",
+                "rating": "5",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "star"
@@ -262,6 +275,7 @@ const agencies = {
                 "address":"Amrit Marg, Bhagwan Bahal,Thamel, Kathmandu 44600",
                 "phonenumber": "", 
                 "description":"Sky Diving ",
+                "rating": "5",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "star"
@@ -281,6 +295,7 @@ const agencies = {
                 "address":"Patan 44700",
                 "phonenumber": "01-5542494", 
                 "description":"Mountain Flights ",
+                "rating": "5",
                 "marker-color": "#fc4353",
                 "marker-size": "large",
                 "marker-symbol": "star"

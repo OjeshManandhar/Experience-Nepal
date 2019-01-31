@@ -14,10 +14,10 @@ function createPopUp(currentFeature) {
 
     var info = '<h3>' + currentFeature.properties.title + '</h3>' + '<h4>' + currentFeature.properties.address;
     if (currentFeature.properties.hasOwnProperty('redeem')) {
-        info += ', ' + prop.redeem + ' points';         //Reedem
+        info += ', <b>' + currentFeature.properties.redeem + ' points</b>';         //Reedem
     }
     else if (currentFeature.properties.hasOwnProperty('rating')) {
-        info += ', ' + prop.rating + ' points';         //Rating
+        info += ', <b>' + currentFeature.properties.rating + ' stars</b>';         //Rating
     }
     info += '</h4>';
 
@@ -62,10 +62,10 @@ function showInformation(currentFeature) {
     var info = '<h3>' + prop.title + '</h3>';       //Title
     info += '<p> <b>Address:</b> ' + prop.address + '</p>';         //Address
     if (prop.hasOwnProperty('redeem')) {
-        info += '<h4>Redeem Points: </h4><h5>' + prop.redeem + ' points</h5>';         //Reedem
+        info += '<p> <b>Redeem Points:</b> ' + prop.redeem + ' points</p>';         //Reedem
     }
     else if (prop.hasOwnProperty('rating')) {
-        info += '<h4>Ratings: </h4><h5>' + prop.redeem + ' stars</h5>';         //Ratings
+        info += '<p> <b>Ratings:</b> ' + prop.rating + ' stars</p>';         //Ratings
     }
 
     for (var key in prop) {
@@ -76,7 +76,7 @@ function showInformation(currentFeature) {
 
             console.log(key, ' => ', prop[key]);
             
-            if (key === 'title' || key === 'redeem' || key === 'address' || key === 'description') {
+            if (key === 'title' || key === 'redeem' || key === 'address' || key === 'description' || key === 'rating') {
                 continue;
             }
             
@@ -138,10 +138,10 @@ function buildLocationList(data) {
         var details = listing.appendChild(document.createElement('div'));
         var info = prop.address;
         if (prop.hasOwnProperty('redeem')) {
-            info += ', ' + prop.redeem + ' points';         //Reedem
+            info += ', <b>' + prop.redeem + ' points</b>';         //Reedem
         }
         else if (prop.hasOwnProperty('rating')) {
-            info += ', ' + prop.rating + ' stars';         //Rating
+            info += ', <b>' + prop.rating + ' stars</b>';         //Rating
         }
         details.innerHTML = info;
         
