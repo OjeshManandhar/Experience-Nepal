@@ -12,6 +12,10 @@ body {
     box-sizing: border-box;
 }
 
+/*==========================================================*/
+
+/*Navbar*/
+
 .navbar {
     padding: .8rem;
 }
@@ -31,10 +35,18 @@ body {
     font-size: 1.1em !important;
 }
 
+/*==========================================================*/
+
+/*Map Section*/
+
 .wrapper {
     height: 80vh;
     width: 100vw;
 }
+
+/*==========================================================*/
+
+/*Map*/
 
 .map-section {
     height: 100%;
@@ -45,7 +57,7 @@ body {
 }
 
 .map {
-    border-left: 2px solid white;
+    border-left: 5px solid white;
     padding: 0px;
     margin: 0px;
 }
@@ -55,7 +67,10 @@ body {
     width: 100%;
 }
 
+/*==========================================================*/
+
 /*Listings*/
+
 .sidebar {
     overflow: hidden;
 }
@@ -183,4 +198,11 @@ a:hover {
 
 .mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
     border-bottom-color: #91c949;
+}
+
+/*==========================================================*/
+
+/*Information section*/
+.image {
+    margin: 0px auto;
 }
