@@ -61,7 +61,7 @@ function showInformation(currentFeature) {
 
     var info = '<h3>' + prop.title + '</h3>';       //Title
     if (prop.hasOwnProperty('redeem')) {
-        info += '<p> <b>Redeem Points:</b> ' + prop.redeem + ' points</p>';         //Reedem
+        info += '<p> <b>Redeem Points:</b> ' + prop.redeem + '</p>';         //Reedem
     }
     else if (prop.hasOwnProperty('rating')) {
         info += '<p> <b>Ratings:</b> ' + prop.rating + ' out of 5</p>';         //Ratings
