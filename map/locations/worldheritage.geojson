@@ -1,4 +1,4 @@
-const worldheritage= {
+const worldheritage = {
   "type": "FeatureCollection",
   "features": [
     {
