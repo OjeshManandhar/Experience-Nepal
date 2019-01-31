@@ -17,7 +17,7 @@ function createPopUp(currentFeature) {
         info += ', <b>' + currentFeature.properties.redeem + ' points</b>';         //Reedem
     }
     else if (currentFeature.properties.hasOwnProperty('rating')) {
-        info += ', <b>' + currentFeature.properties.rating + ' stars</b>';         //Rating
+        info += ', <b>' + currentFeature.properties.rating + ' out of 5</b>';         //Rating
     }
     info += '</h4>';
 
@@ -64,7 +64,7 @@ function showInformation(currentFeature) {
         info += '<p> <b>Redeem Points:</b> ' + prop.redeem + ' points</p>';         //Reedem
     }
     else if (prop.hasOwnProperty('rating')) {
-        info += '<p> <b>Ratings:</b> ' + prop.rating + ' stars</p>';         //Ratings
+        info += '<p> <b>Ratings:</b> ' + prop.rating + ' out of 5</p>';         //Ratings
     }
     info += '<p> <b>Address:</b> ' + prop.address + '</p>';         //Address
 
@@ -141,7 +141,7 @@ function buildLocationList(data) {
             info += ', <b>' + prop.redeem + ' points</b>';         //Reedem
         }
         else if (prop.hasOwnProperty('rating')) {
-            info += ', <b>' + prop.rating + ' stars</b>';         //Rating
+            info += ', <b>' + prop.rating + ' out of 5</b>';         //Rating
         }
         details.innerHTML = info;
         
