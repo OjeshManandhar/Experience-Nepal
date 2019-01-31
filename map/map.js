@@ -12,10 +12,19 @@ function createPopUp(currentFeature) {
     // Check if there is already a popup on the map and if so, remove it
     if (popUps[0]) popUps[0].remove();
 
+    var info = '<h3>' + currentFeature.properties.title + '</h3>' + '<h4>' + currentFeature.properties.address;
+    if (currentFeature.properties.hasOwnProperty('redeem')) {
+        info += ', ' + prop.redeem + ' points';         //Reedem
+    }
+    else if (currentFeature.properties.hasOwnProperty('rating')) {
+        info += ', ' + prop.rating + ' points';         //Rating
+    }
+    info += '</h4>';
+
+
     var popup = new mapboxgl.Popup({ closeOnClick: false })
         .setLngLat(currentFeature.geometry.coordinates)
-        .setHTML('<h3>' + currentFeature.properties.title + '</h3>' +
-        '<h4>' + currentFeature.properties.address + '</h4>')
+        .setHTML(info)
         .addTo(map);
 }
 
@@ -53,7 +62,10 @@ function showInformation(currentFeature) {
     var info = '<h3>' + prop.title + '</h3>';       //Title
     info += '<p> <b>Address:</b> ' + prop.address + '</p>';         //Address
     if (prop.hasOwnProperty('redeem')) {
-        info += '<h4>Redeem Points: </h4><h5>' + prop.redeem + '</h5>';         //Reedem
+        info += '<h4>Redeem Points: </h4><h5>' + prop.redeem + ' points</h5>';         //Reedem
+    }
+    else if (prop.hasOwnProperty('rating')) {
+        info += '<h4>Ratings: </h4><h5>' + prop.redeem + ' stars</h5>';         //Ratings
     }
 
     for (var key in prop) {
@@ -124,7 +136,14 @@ function buildLocationList(data) {
         link.innerHTML = prop.title;
 
         var details = listing.appendChild(document.createElement('div'));
-        details.innerHTML = prop.address;
+        var info = prop.address;
+        if (prop.hasOwnProperty('redeem')) {
+            info += ', ' + prop.redeem + ' points';         //Reedem
+        }
+        else if (prop.hasOwnProperty('rating')) {
+            info += ', ' + prop.rating + ' stars';         //Rating
+        }
+        details.innerHTML = info;
         
         link.addEventListener('click', function(e){
             var clickedListing = data.features[this.dataPosition];
