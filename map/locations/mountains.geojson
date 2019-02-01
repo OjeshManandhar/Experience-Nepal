@@ -50,7 +50,7 @@ const mountains = {
       },
       "properties": {
         "title": "Kanchenjunga",
-        "address": "",
+        "address": "Mangan",
         "redeem": "30",
         "description": "8586m",
         "marker-color": "#fc4353",
@@ -163,8 +163,8 @@ const mountains = {
         ]
       },
       "properties": {
-        "title": "Ganesh Hima",
-        "address": "",
+        "title": "Ganesh Himal",
+        "address": "Borang",
         "description": "7422m",
         "redeem": "34",
         "marker-color": "#fc4353",
@@ -240,7 +240,7 @@ const mountains = {
       },
       "properties": {
         "title": "Yala Peak",
-        "address": "",
+        "address": "Syabru Bensi",
         "description": "5700m",
         "redeem": "50",
         "marker-color": "#fc4353",
