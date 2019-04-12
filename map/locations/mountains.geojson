@@ -183,9 +183,9 @@ const mountains = {
       },
       "properties": {
         "title": "Shishapangma",
-        "address": "43",
+        "address": "",
         "description": "8013m",
-        "redeem": "",
+        "redeem": "43",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "mountain"
