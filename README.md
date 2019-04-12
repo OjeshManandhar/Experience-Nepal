@@ -9,15 +9,15 @@ This website also focuses on highlighting different under-rated places of Nepal 
 **Important:** The **Reedem Code** and **Ratings** give to the places are completly random and dosent reflect its true beauty.
 
 ## Screenshots
-![Homepage](/screenshots/index.png)
+![Homepage](/screenshots/homepage.png)
 
-![Swiper](/screenshots/swiper.png)
+![Slider](/screenshots/slider.png)
 
-![Asking GPS permission](/screenshots/gps.png)
+![User Location using GPS](/screenshots/user-location.png)
 
-![Accessories nearby](/screenshots/airports.png)
+![Accessories](/screenshots/accessories.png)
 
-![Herigate across Nepal](/screenshots/heritage.png)
+![National Park](/screenshots/national-park.png)
 
 ## Todo
 - [X] Create different packages for users. Each package contains information of places like Pilgrimage, World Heritage Sites, etc. of Nepal.
@@ -78,7 +78,7 @@ This website also focuses on highlighting different under-rated places of Nepal 
   - New Homepage (with *Carousel*, *Two-Column Section*, *Package Slider*) (see [Experience Nepal Homepage](https://github.com/OjeshManandhar/Experience-Nepal-Homepage) for more detail)
   - No change in Map display
   - **Team:**
-    + [Ojesh Manandhar](https://github.com/OjeshManandhar) - Back-end, Front-end, Presentation
+    + [Ojesh Manandhar](https://github.com/OjeshManandhar) - Front-end, Presentation
     + [Shristi Singh Dongol](https://github.com/shrisingdon) - Front-end, Presentation
     + [Shrijan Bahadur Bajracharya](https://github.com/ShriBuzz) - Front-end, Presentation
 + **LOCUS HACK-A-WEEK** *January 2018*
