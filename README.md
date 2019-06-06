@@ -61,7 +61,7 @@ This website also focuses on highlighting different under-rated places of Nepal 
 + [Business Model](https://www.cleverism.com/business-model-canvas-complete-guide/)
 
 ## Timeline
-+ **Hackathon at KU IT Meet** *December 2019*
++ **Hackathon at KU IT Meet** *December 2018*
   - **Idea:**
     + Highlight unexposed places
   - Home page with *Package Slider*
@@ -71,7 +71,7 @@ This website also focuses on highlighting different under-rated places of Nepal 
     + [Shristi Singh Dongol](https://github.com/shrisingdon) - Logo Design, Front-end, Data collection
     + [Shrijan Bahadur Bajracharya](https://github.com/ShriBuzz) - Logo Design, Data collection, Front-end, Presentation
     + [Palisha Shrestha](https://github.com/palishashrestha) - Data collection
-+ **Software Exhibition at Kathfest** *January 2018*
++ **Software Exhibition at Kathfest** *January 2019*
   - **Idea:**
     + Highlight unexposed places
     + Promote use of national agencies over international agencies when visiting Nepal
@@ -81,7 +81,7 @@ This website also focuses on highlighting different under-rated places of Nepal 
     + [Ojesh Manandhar](https://github.com/OjeshManandhar) - Front-end, Presentation
     + [Shristi Singh Dongol](https://github.com/shrisingdon) - Front-end, Presentation
     + [Shrijan Bahadur Bajracharya](https://github.com/ShriBuzz) - Front-end, Presentation
-+ **LOCUS HACK-A-WEEK** *January 2018*
++ **LOCUS HACK-A-WEEK** *January 2019*
   - **Idea:**
       + Highlight unexposed places using **Reedem Code**
       + Add places where they can spend collected **Reedem Code** points
